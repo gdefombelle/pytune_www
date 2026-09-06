@@ -468,6 +468,13 @@
     </div>
   </section>
 
+  <!-- CROSS LINK -->
+  <p class="text-center text-[#F4E8C2]/60 text-sm pt-6">
+    <a href="/for/restorer-sellers" class="underline decoration-white/30 hover:text-[#F4E8C2]">
+      {$t('pro.cross_link')}
+    </a>
+  </p>
+
   <!-- CTA BOTTOM -->
   <section class="relative max-w-[1100px] mx-auto px-6 pb-16 pt-6">
     <div class="relative">

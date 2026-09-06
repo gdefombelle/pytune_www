@@ -264,7 +264,7 @@
     "restorer_sellers": {
       "hero": {
         "badge": "PyTune · Pour restaurateurs, facteurs & vendeurs de pianos",
-        "title": "Montrez la vraie valeur\nderière chaque piano que vous vendez.",
+        "title": "Montrez la vraie valeur\nderrière chaque piano que vous vendez.",
         "subtitle": "PyTune transforme votre écoute et votre expérience en diagnostics clairs et partageables. Vous restez maître de votre expertise — PyTune vous aide simplement à l’expliquer, la documenter et la valoriser.",
         "bullets": [
           "Idéal pour ateliers, restaurateurs, vendeurs de pianos d’occasion et maisons spécialisées.",
@@ -360,7 +360,8 @@
       "final_cta": {
         "button": "Utiliser PyTune dans votre atelier",
         "note": "Votre premier piano est gratuit — évoluez ensuite vers Pro à votre rythme."
-      }
+      },
+      "cross_link": "Vous accordez aussi pour des clients ? Voir PyTune pour les techniciens →"
     },
     "manufacturers": {
       "hero": {
@@ -703,7 +704,8 @@
         "body": "Si PyTune ne vous apporte aucune intervention la première année, nous vous remboursons intégralement."
       },
       "cta": "Voir les tarifs professionnels"
-    }
+    },
+    "cross_link": "Vous restaurez ou vendez aussi des pianos ? Voir PyTune pour les restaurateurs et revendeurs →"
   },
   "plans": {
     "header": {

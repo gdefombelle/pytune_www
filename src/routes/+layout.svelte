@@ -15,6 +15,7 @@
     '/for/churches-community',
     '/for/schools',
     '/for/investors',
+    '/for/restorer-sellers',
     '/how-it-works',
     '/plan-faith',
     '/plan-pro',

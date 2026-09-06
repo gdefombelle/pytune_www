@@ -211,6 +211,13 @@
     </div>
   </section>
 
+  <!-- CROSS LINK -->
+  <p class="text-center text-[#F4E8C2]/60 text-sm mb-10">
+    <a href="/for/technicians-workshops" class="underline decoration-white/30 hover:text-[#F4E8C2]">
+      {$t('for.restorer_sellers.cross_link')}
+    </a>
+  </p>
+
   <!-- FINAL CTA -->
   <section class="text-center pb-32">
     <!-- svelte-ignore a11y_invalid_attribute -->

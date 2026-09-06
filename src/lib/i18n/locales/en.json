@@ -360,7 +360,8 @@
       "final_cta": {
         "button": "Start using PyTune in your workshop",
         "note": "Your first piano is free — then you can grow into Pro when you’re ready."
-      }
+      },
+      "cross_link": "Do you also tune for clients? See PyTune for technicians →"
     },
     "manufacturers": {
       "hero": {
@@ -703,7 +704,8 @@
         "body": "If PyTune brings you no work in your first year, we refund you in full."
       },
       "cta": "See professional pricing"
-    }
+    },
+    "cross_link": "Do you also restore or sell pianos? See PyTune for restorers and sellers →"
   },
   "plans": {
     "header": {
