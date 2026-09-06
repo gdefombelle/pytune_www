@@ -1,0 +1,36 @@
+# Node / Vite / SvelteKit
+node_modules/
+.svelte-kit/
+.vite/
+build/
+dist/
+.output/
+
+# Deployment platforms
+.vercel/
+.netlify/
+
+# Env vars (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Caches
+.cache/
+.turbo/
+
+# IDE / OS
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local reports
+report.pdf
+
+# À migrer vers pytune_storage lors de la refonte de /how-it-works
+# static/slides/pdf/

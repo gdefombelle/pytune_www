@@ -1,0 +1,66 @@
+{
+  "_note": "Langue désactivée dans le sélecteur (voir src/lib/i18n/langStore.ts) et incomplète depuis la refonte de /discover — ne pas réactiver sans mise à jour du namespace discover.* et vérification des clés manquantes.",
+  "navbar": {
+    "home": "PyTune",
+    "back": "Zurück",
+    "forward": "Weiter",
+    "refresh": "Aktualisieren",
+    "upgrade": "Abo upgraden",
+    "change_language": "Sprache ändern",
+    "dashboard": "Studio",
+    "pricing": "Tarife"
+  },
+  "footer": {
+    "support_message": "Gefällt Ihnen PyTune? Unterstützen Sie das Projekt.",
+    "donate_button": "Einen Kaffee spendieren",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "landing": {
+    "hero": {
+      "eyebrow": "PyTune vorgestellt",
+      "title": "Entwickelt für akustische Klaviere.",
+      "subtitle": "Für Klavierbesitzer und Fachleute. Angetrieben durch Klanganalyse und KI.",
+      "signature": "Von der Identifikation bis zur Referenz-Stimmung.",
+      "cta_primary": "PyTune entdecken",
+      "cta_secondary": "Loslegen",
+      "reassurance": "Kostenlos · Keine Installation · Alle Plattformen",
+      "baseline": "Identifizieren · Diagnostizieren · Stimmen"
+    }
+  },
+  "home": {
+    "hero": {
+      "brandline": { "tagline": "Der beste Freund Ihres Klaviers" },
+      "title": "Verstehen, diagnostizieren & stimmen Sie Ihr akustisches Klavier.",
+      "subtitle": "PyTune hilft Ihnen, Ihr Instrument zu identifizieren, seinen Zustand zu messen und eine hochpräzise Stimmung zu begleiten — allein oder mit einem Fachmann."
+    },
+    "audience": { "view_details": "Details ansehen" },
+    "platform": {
+      "eyebrow": "EINE EIGENE KATEGORIE",
+      "title": "Eine kognitive KI-Plattform für akustische Klaviere",
+      "intro": "PyTune ist weder eine klassische App noch ein Einzweck-Tool. Es ist eine <span class='highlight'>wissenschaftliche, kollaborative und echtzeitfähige Plattform</span>, entwickelt, um akustische Klaviere zu verstehen, zu messen und zu begleiten — von den ersten Schritten bis hin zur professionellen Spitzenpraxis.",
+      "features": {
+        "01": {
+          "title": "KI-gestütztes Hochpräzisions-Stimmen",
+          "text": "Audio-first-Stimmführung durch KI. Ermöglicht Einsteigern das Stimmen ohne Vorkenntnisse und bietet Profis maximale Präzision und Kontrolle. Sprachführung — kein Blick auf den Bildschirm nötig."
+        },
+        "02": {
+          "title": "Professionelle akustische Diagnose",
+          "text": "Analyse von Inharmonizität, Stimmkurven und Abweichungskarten auf Basis realer akustischer Messungen — keine Näherungen. Vergleichbar, reproduzierbar und teilbar."
+        },
+        "04": {
+          "title": "Kognitive KI für Lernen & Expertise",
+          "text": "Eine Wissensplattform zur Vertiefung von Stimmtechnik, Akustik und Klavierverhalten — kontextbezogen, erklärbar und praxisnah."
+        },
+        "05": {
+          "title": "Für Zusammenarbeit konzipiert",
+          "text": "Klavierbesitzer, Techniker, Restauratoren und Hersteller arbeiten in einem gemeinsamen Ökosystem — individuelle Workflows im Einklang mit professioneller Praxis."
+        },
+        "06": {
+          "title": "Keine Installation · Plattformübergreifend",
+          "text": "Keine Softwareinstallation erforderlich. Funktioniert auf Smartphone, Tablet, Desktop und in Multi-Screen-Umgebungen. Klavierdatierung und historische Einschätzung inklusive."
+        }
+      },
+      "signature": "PyTune verbindet Einsteiger und Experten — von den ersten Stimmversuchen bis zur referenzwürdigen Klavierpflege."
+    }
+  }
+}

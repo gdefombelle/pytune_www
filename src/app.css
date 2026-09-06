@@ -1,0 +1,84 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --pytune-blue: #9ad8ff;
+  --pytune-green-strong: #22c55e;
+  --pytune-green: #6ee7b7;
+  --pytune-green-soft: #9af0cf;
+  --pytune-gold-strong: #f5cc66;
+  --pytune-gold: #e7d9a3;
+  --pytune-bg-panel: #1b1b1b;
+  --pytune-bg-elevated: #151f19;
+  --pytune-bg-overlay: rgba(0, 0, 0, 0.75);
+  --pytune-border: color-mix(in srgb, var(--pytune-green) 35%, transparent);
+  --pytune-border-soft: color-mix(in srgb, var(--pytune-green-soft) 25%, transparent);
+  --pytune-text-primary: #eee;
+  --pytune-text-muted: color-mix(in srgb, var(--pytune-green-soft) 65%, white);
+  --pytune-text-subtle: color-mix(in srgb, var(--pytune-green-soft) 75%, transparent);
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Shared tabs used by the public presentation gallery. */
+.tabs {
+  display: flex;
+  gap: 0;
+  margin: 0 0 1rem;
+  padding-left: 0.25rem;
+  border-bottom: 1px solid rgba(110, 231, 183, 0.35);
+}
+
+.tabs .tab {
+  appearance: none;
+  margin-bottom: -1px;
+  padding: 0.6rem 1.1rem;
+  border: 0;
+  border-radius: 8px 8px 0 0;
+  background: transparent;
+  color: rgba(110, 231, 183, 0.65);
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.tabs .tab:not(.is-active):hover {
+  color: var(--pytune-green-soft);
+}
+
+.tabs .tab.is-active {
+  position: relative;
+  z-index: 1;
+  border: 1px solid rgba(110, 231, 183, 0.45);
+  border-bottom-color: #151f19;
+  background: #151f19;
+  color: var(--pytune-green-soft);
+}
+
+/* Shared contact-form cards. */
+.pytune-card {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--pytune-border);
+  border-radius: 14px;
+  background: var(--pytune-bg-elevated);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.pytune-card-title {
+  margin-bottom: 0.5rem;
+  color: var(--pytune-green-soft);
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.pytune-muted {
+  color: var(--pytune-text-muted);
+  font-size: 0.85rem;
+}

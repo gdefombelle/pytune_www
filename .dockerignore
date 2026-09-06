@@ -1,0 +1,28 @@
+# Node / SvelteKit / Vite
+node_modules
+.svelte-kit
+.vite
+build
+dist
+.env
+.env.*
+*.log
+
+# IDE / système
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Tests / Docs si tu en as
+tests/
+notebooks/
+docs/
+
+# Docker build context
+Dockerfile
+docker-compose.yml

@@ -1,0 +1,842 @@
+{
+  "navbar": {
+    "home": "PyTune",
+    "back": "Précédent",
+    "forward": "Suivant",
+    "refresh": "Actualiser",
+    "upgrade": "Mettre à niveau",
+    "change_language": "Changer de langue",
+    "dashboard": "Atelier",
+    "pricing": "Plans"
+  },
+  "footer": {
+    "support_message": "Vous aimez PyTune ? Pensez à soutenir le projet.",
+    "donate_button": "Offrez-nous un café",
+    "rights": "Tous droits réservés.",
+    "investors_link": "Investisseurs"
+  },
+  "landing": {
+    "hero": {
+      "eyebrow": "Présentation de PyTune",
+      "title": "Conçu pour les pianos acoustiques.",
+      "subtitle": "Pour les propriétaires et les professionnels du piano. Propulsé par l’analyse sonore et l’IA.",
+      "signature": "De l’identification à l’accordage de référence.",
+      "cta_primary": "Découvrir PyTune",
+      "cta_secondary": "Commencer",
+      "reassurance": "Gratuit · Sans installation · Toutes plateformes",
+      "baseline": "Identifier · Diagnostiquer · Accorder"
+    }
+  },
+  "home": {
+    "hero": {
+      "brandline": { "tagline": "Le meilleur ami de votre piano" },
+      "title": "Comprendre, diagnostiquer et accorder votre piano acoustique.",
+      "subtitle": "PyTune vous aide à identifier votre instrument, à mesurer son état de santé et à vous guider vers un accordage de haute précision — en autonomie ou avec un professionnel."
+    },
+    "audience": { "view_details": "Voir les détails" },
+    "platform": {
+      "eyebrow": "UNE CATÉGORIE À PART",
+      "title": "Une plateforme d’IA cognitive dédiée aux pianos acoustiques",
+      "intro": "PyTune n’est ni une application classique ni un simple outil. C’est une <span class='highlight'>plateforme scientifique, collaborative et en temps réel</span>, conçue pour comprendre, mesurer et accompagner les pianos acoustiques — des premiers pas jusqu’à l’expertise de niveau international.",
+      "features": {
+        "01": {
+          "title": "Accordage haute précision guidé par l’IA",
+          "text": "Un guidage d’accordage audio-first piloté par l’IA. Il permet aux amateurs d’accorder sans connaissances préalables, tout en offrant aux experts une précision et un contrôle inégalés. Guidage vocal — sans avoir besoin de regarder l’écran."
+        },
+        "02": {
+          "title": "Diagnostic acoustique professionnel",
+          "text": "Analyse de l’inharmonicité, courbes d’accord et cartes d’écart issues de mesures acoustiques réelles — pas d’approximations. Données comparables, reproductibles et partageables."
+        },
+        "04": {
+          "title": "IA cognitive pour l’apprentissage et l’expertise",
+          "text": "Une plateforme de connaissance pour explorer et approfondir la compréhension de l’accordage, de l’acoustique et du comportement du piano — contextuelle, explicable et orientée pratique experte."
+        },
+        "05": {
+          "title": "Pensée pour la collaboration",
+          "text": "Propriétaires, techniciens, restaurateurs et fabricants travaillent dans un même écosystème — avec des workflows individuels alignés sur les pratiques professionnelles."
+        },
+        "06": {
+          "title": "Zéro installation · Multiplateforme",
+          "text": "Aucun logiciel à installer. Fonctionne sur téléphone, tablette, ordinateur et configurations multi-écrans. Estimation de l’âge et de l’historique du piano incluse."
+        }
+      },
+      "signature": "PyTune crée un pont entre amateurs et experts — des premiers accords à une référence mondiale du soin pianistique."
+    }
+  },
+  "for": {
+    "piano_owners": {
+      "hero": {
+        "badge": "PyTune · Pour les propriétaires de piano",
+        "title": "Prenez mieux soin de votre piano,\navec l’IA à vos côtés.",
+        "subtitle": "PyTune vous aide à comprendre l’état, l’accord et la valeur de votre piano — avec le même niveau de précision que les professionnels, mais expliqué de manière claire et accessible à tous les passionnés.",
+        "bullets": [
+          "Fonctionne directement dans votre navigateur ou l’application PyTune sur Mac, PC, iPhone, iPad et Android.",
+          "Votre premier piano est gratuit — pour toujours.",
+          "Conçu pour les vrais pianos acoustiques : droits, à queue, modernes ou anciens."
+        ],
+        "cta_primary": "Créer mon compte gratuit",
+        "cta_secondary": "Voir comment fonctionne PyTune",
+        "footnote": "Aucune carte bancaire requise · Résiliation à tout moment · Votre premier piano est gratuit — pour toujours"
+      },
+      "what": {
+        "title": "Ce que PyTune fait pour votre piano",
+        "cards": [
+          {
+            "title": "Bilan instantané de l’état du piano",
+            "text": "Prenez quelques photos ou jouez une courte gamme. PyTune analyse l’accord, l’état général et les principaux indicateurs acoustiques grâce à une IA conçue pour les vrais pianos — et vous explique simplement comment se porte votre instrument."
+          },
+          {
+            "title": "Visualisation précise de l’accord",
+            "text": "Visualisez note par note : courbes de déviation claires, indications de stabilité et évolution dans le temps. En coulisses, PyTune utilise des analyses de haute précision comparables aux outils professionnels — sans exiger de compétences techniques."
+          },
+          {
+            "title": "Explications claires, guidées par l’IA",
+            "text": "Votre assistant IA vous explique les graphiques : « Puis-je continuer à jouer ? », « Est-il temps d’accorder ? », « Est-ce normal pour un piano ancien ? » — des réponses concrètes, en langage simple, adaptées à votre situation."
+          },
+          {
+            "title": "Le profil numérique de votre piano",
+            "text": "Photos, diagnostics, historique d’accords, rapports, notes de techniciens — tout est centralisé. Que vous conserviez votre piano toute votre vie ou que vous le revendiez un jour, PyTune construit un historique qui atteste du soin que vous lui avez apporté."
+          }
+        ]
+      },
+      "support": {
+        "title": "Vous n’êtes jamais seul avec votre piano",
+        "subtitle": "Utilisez PyTune en toute autonomie ou partagez vos résultats lorsque vous souhaitez un avis humain. Vous gardez le contrôle : diagnostics privés ou partagés avec des utilisateurs expérimentés ou des accordeurs professionnels.",
+        "cards": [
+          {
+            "title": "Mode autonome",
+            "text": "Lancez des diagnostics quand vous le souhaitez, obtenez des explications via l’IA et décidez vous-même quand faire appel à un technicien — ou jouez simplement l’esprit tranquille."
+          },
+          {
+            "title": "Partager avec un professionnel",
+            "text": "Envoyez votre rapport de diagnostic à un accordeur ou un professeur afin qu’il prépare son intervention, vous conseille à distance ou suive votre piano dans le temps."
+          },
+          {
+            "title": "Échanger avec des utilisateurs avancés",
+            "text": "Échangez avec des passionnés expérimentés qui aiment les pianos autant que vous. Partagez des mesures ou des captures d’écran et obtenez des retours éclairés, sans perdre la maîtrise de vos données."
+          }
+        ]
+      },
+      "steps": {
+        "title": "L’expérience côté propriétaire",
+        "items": [
+          {
+            "number": "01",
+            "title": "Présentez votre piano à PyTune",
+            "text": "Indiquez ce que vous savez : marque, âge approximatif, ou envoyez simplement une photo ou décrivez votre piano avec vos mots. L’IA vous aide à identifier et dater l’instrument pour partir sur de bonnes bases."
+          },
+          {
+            "number": "02",
+            "title": "Lancez votre premier diagnostic",
+            "text": "Jouez une courte séquence de notes ou suivez le guide à l’écran. PyTune écoute, mesure et dresse un portrait précis de l’accord, de la stabilité et du comportement acoustique de votre piano."
+          },
+          {
+            "number": "03",
+            "title": "Comprenez les résultats avec l’aide de l’IA",
+            "text": "Au-delà des graphiques, vous obtenez une synthèse claire : niveau de désaccord, zones les plus sensibles et impact sur le jeu, l’enregistrement ou l’étude — avec des graphiques détaillés pour aller plus loin si vous le souhaitez."
+          },
+          {
+            "number": "04",
+            "title": "Décidez de la suite",
+            "text": "Continuez à jouer et observez l’évolution, planifiez un accordage en toute confiance ou partagez votre rapport avec un technicien ou un professeur. PyTune devient votre référence pour toutes les décisions concernant votre piano."
+          }
+        ]
+      },
+      "free": {
+        "title": "Votre premier piano est gratuit — pour toujours.",
+        "text": "PyTune Free permet à chaque propriétaire de piano de mieux prendre soin de son instrument, sans pression d’abonnement. Lorsque vous le souhaitez, vous pouvez évoluer vers des options avancées ou multi-pianos.",
+        "points": [
+          "1 piano inclus — profil numérique complet, diagnostics et historique.",
+          "Diagnostic acoustique et par photos avec explications par IA.",
+          "Visualisation d’accord de haute précision et indicateurs clés d’entretien.",
+          "Partage facultatif avec des techniciens, professeurs ou utilisateurs avancés.",
+          "Accès depuis tous vos appareils — navigateur ou application PyTune."
+        ]
+      }
+    },
+    "technicians": {
+      "hero": {
+        "badge": "PyTune · Pour les techniciens & accordeurs",
+        "title": "Faites plus à chaque accordage,\nsur site ou à distance.",
+        "subtitle": "PyTune vous fournit des analyses d’accord de haute précision, des diagnostics partageables et un réseau croissant de propriétaires de pianos — pour travailler plus efficacement, mieux expliquer, et développer une activité moderne autour du piano.",
+        "bullets": [
+          "Conçu pour les accordeurs professionnels, restaurateurs, enseignants et studios.",
+          "Visualisation précise de l’accord, courbes d’inharmonicité et indicateurs de stabilité.",
+          "Navigateur + application — Mac, PC, iPhone, iPad et Android, compatible multi-écrans."
+        ],
+        "cta_primary": "Demander l’accès PyTune Pro",
+        "cta_secondary": "Explorer les outils d’accord",
+        "footnote": "Commencez gratuitement · Passez en Pro lorsque vous êtes prêt."
+      },
+      "value": {
+        "title": "Ce que PyTune apporte à votre métier",
+        "cards": [
+          {
+            "title": "Arriver préparé à chaque intervention",
+            "text": "Avant même de toucher le piano, vous consultez les diagnostics photo et acoustiques envoyés par le client. Zones problématiques, stabilité, historique — votre temps sur place est consacré à ce qui compte vraiment."
+          },
+          {
+            "title": "Accord et analyses de haute précision",
+            "text": "Utilisez les vues d’accord de précision PyTune, les courbes d’inharmonicité et les indicateurs de stabilité comme référence pendant votre travail. Conçu pour les vrais pianos acoustiques, pas pour des applications de justesse génériques."
+          },
+          {
+            "title": "Rapports de niveau professionnel",
+            "text": "Générez des rapports clairs et personnalisés à remettre au client ou à envoyer par email : avant/après accord, remarques sur la mécanique, recommandations pour les interventions futures, et plus encore."
+          },
+          {
+            "title": "Enseigner et accompagner avec des outils modernes",
+            "text": "Utilisez PyTune comme support visuel en cours, en atelier ou en accompagnement à distance. Montrez ce que signifie « juste », expliquez les partiels et l’étirement, et aidez les élèves à entendre ce qu’ils voient."
+          }
+        ]
+      },
+      "workflow": {
+        "title": "Pensé pour votre manière de travailler",
+        "subtitle": "Que vous interveniez sur site, animiez un atelier ou accompagniez des élèves à distance, PyTune s’intègre à votre méthode de travail au lieu de la remplacer.",
+        "cards": [
+          {
+            "title": "Sessions autonomes ou partagées",
+            "text": "Lancez des diagnostics sur votre propre appareil ou laissez vos clients effectuer une vérification préalable depuis chez eux. Vous décidez ce qu’ils voient — et ce que vous voyez."
+          },
+          {
+            "title": "Multi-écrans et sessions à distance",
+            "text": "Travaillez avec plusieurs appareils simultanément — ordinateur près du piano, tablette sur le banc, ou écran distant pour un élève ou un assistant."
+          },
+          {
+            "title": "Bibliothèque de pianos et de clients",
+            "text": "Conservez un historique structuré pour chaque instrument : courbes d’accord, notes, photos, factures ou rapports — tout est centralisé."
+          }
+        ]
+      },
+      "business": {
+        "title": "Pour les professionnels, pas pour remplacer les professionnels",
+        "subtitle": "PyTune est conçu pour soutenir votre activité, pas pour vous remplacer. Rejoignez un réseau où propriétaires de pianos, utilisateurs avancés et techniciens collaborent.",
+        "cards": [
+          {
+            "title": "Rejoindre notre réseau professionnel",
+            "text": "Créez votre profil professionnel une seule fois et devenez visible auprès des utilisateurs PyTune de votre région. Les propriétaires peuvent demander une intervention ou un suivi."
+          },
+          {
+            "title": "Recevoir des demandes qualifiées",
+            "text": "Lorsqu’un utilisateur partage un diagnostic, vous disposez de données concrètes : modèle, état d’accord, historique. Pas de contacts à froid — uniquement des pianos réels nécessitant une intervention."
+          },
+          {
+            "title": "Développer votre activité avec PyTune",
+            "text": "Proposez des contrôles à distance, des sessions pédagogiques ou un suivi entre deux visites. PyTune devient un prolongement de votre service, pas un concurrent."
+          }
+        ]
+      },
+      "steps": {
+        "title": "Une session PyTune, côté technicien",
+        "items": [
+          {
+            "number": "01",
+            "title": "Se connecter avec un propriétaire de piano",
+            "text": "Le propriétaire effectue un contrôle rapide via PyTune ou partage des diagnostics existants. Vous accédez à la marque, au modèle, à l’âge estimé, aux photos et aux principaux indicateurs acoustiques avant l’intervention."
+          },
+          {
+            "number": "02",
+            "title": "Préparer votre plan d’intervention",
+            "text": "Analysez les déviations d’accord, les zones de stabilité et l’historique. Décidez si un accord standard suffit ou si un travail de réglage, d’harmonisation ou de réparation est à prévoir."
+          },
+          {
+            "number": "03",
+            "title": "Utiliser PyTune pendant votre travail",
+            "text": "Sur site ou à distance, utilisez PyTune comme référence : vérifiez la stabilité dans le temps, consignez vos remarques et capturez des données avant/après en quelques étapes simples."
+          },
+          {
+            "number": "04",
+            "title": "Apporter de la valeur — et maintenir le lien",
+            "text": "Envoyez un rapport clair, planifiez le prochain contrôle ou proposez un suivi à distance. Le client conserve un historique complet, et vous restez le technicien de référence pour ce piano."
+          }
+        ]
+      },
+      "final": {
+        "cta": "Demander l’accès PyTune Pro",
+        "footnote": "Vous préférez commencer simplement ? Créez d’abord un compte gratuit — vous pourrez évoluer ensuite."
+      }
+    },
+    "restorer_sellers": {
+      "hero": {
+        "badge": "PyTune · Pour restaurateurs, facteurs & vendeurs de pianos",
+        "title": "Montrez la vraie valeur\nderière chaque piano que vous vendez.",
+        "subtitle": "PyTune transforme votre écoute et votre expérience en diagnostics clairs et partageables. Vous restez maître de votre expertise — PyTune vous aide simplement à l’expliquer, la documenter et la valoriser.",
+        "bullets": [
+          "Idéal pour ateliers, restaurateurs, vendeurs de pianos d’occasion et maisons spécialisées.",
+          "Fonctionne sur Mac, PC, iPhone, iPad & Android — navigateur + app, multi-écrans.",
+          "Votre identité peut apparaître dans les rapports et vues client."
+        ],
+        "cta_primary": "Essayer PyTune sur votre prochain piano",
+        "cta_secondary": "Découvrir les diagnostics en détail",
+        "footnote": "Commencez avec un piano gratuit — passez aux outils atelier uniquement si nécessaire."
+      },
+      "value": {
+        "title": "Ce que PyTune apporte à vos pianos",
+        "cards": [
+          {
+            "title": "Révéler l’état réel de chaque piano",
+            "text": "PyTune fournit des vues claires de la justesse, des indicateurs de santé et du comportement acoustique — pour documenter ce que vous entendez et observez au quotidien."
+          },
+          {
+            "title": "Des rapports avant / après qui prouvent votre travail",
+            "text": "Réalisez un diagnostic à l’arrivée, puis après réglage, harmonisation ou restauration complète. PyTune raconte visuellement la transformation que vous avez créée."
+          },
+          {
+            "title": "Des annonces transparentes qui inspirent confiance",
+            "text": "Joignez un rapport PyTune à chaque instrument : stabilité, travaux récents, photos et notes. Les acheteurs à distance voient plus qu’une belle façade."
+          },
+          {
+            "title": "Un dossier numérique par instrument",
+            "text": "Historique, numéros de série, diagnostics et interventions restent centralisés. Le profil suit le piano lors de la vente, avec votre atelier inscrit dans son histoire."
+          }
+        ]
+      },
+      "workflow": {
+        "title": "Pensé pour les ateliers et showrooms réels",
+        "subtitle": "De l’arrivée du piano à sa vente finale, PyTune accompagne votre méthode de travail — sans remplacer votre jugement ni votre oreille.",
+        "cards": [
+          {
+            "title": "Entrée & contrôle préalable",
+            "text": "À l’arrivée d’un piano, réalisez un diagnostic rapide : justesse, stabilité et premiers indicateurs acoustiques."
+          },
+          {
+            "title": "Restauration & préparation",
+            "text": "Au fil des réglages, harmonisations et accords, effectuez des contrôles ciblés pour savoir quand l’instrument est prêt."
+          },
+          {
+            "title": "Vente & transmission",
+            "text": "Remettez le piano avec un rapport clair et un profil numérique que l’acheteur pourra conserver et enrichir."
+          }
+        ]
+      },
+      "collaboration": {
+        "title": "Plus de confiance pour les acheteurs, plus de fluidité avec les techniciens",
+        "subtitle": "Montrez exactement ce qui compte — aux clients comme aux partenaires — sans longs discours techniques.",
+        "cards": [
+          {
+            "title": "Collaboration fluide avec les accordeurs",
+            "text": "Partagez un rapport PyTune avec le technicien local du client pour une continuité parfaite."
+          },
+          {
+            "title": "Accompagnement à distance des acheteurs sérieux",
+            "text": "Parcourez le rapport ensemble lors d’un appel, avec graphiques et notes à l’appui."
+          },
+          {
+            "title": "Aide optionnelle à l’estimation de valeur",
+            "text": "Des fourchettes de valeur assistées par IA soutiennent vos arguments — tout en vous laissant la décision finale."
+          }
+        ]
+      },
+      "steps": {
+        "title": "Le quotidien vu depuis votre atelier",
+        "items": [
+          {
+            "number": "01",
+            "title": "Créer un profil pour chaque instrument",
+            "text": "À l’arrivée du piano, vous créez ou associez un profil PyTune : marque, âge estimé, photos et premier état acoustique."
+          },
+          {
+            "number": "02",
+            "title": "Effectuer un diagnostic initial",
+            "text": "Un test guidé permet d’établir une base objective avant tout travail."
+          },
+          {
+            "number": "03",
+            "title": "Documenter la restauration ou la préparation",
+            "text": "Chaque étape importante est enregistrée. Le profil devient un carnet technique vivant."
+          },
+          {
+            "number": "04",
+            "title": "Présenter et transmettre en toute confiance",
+            "text": "Vous remettez un rapport clair et un historique complet à l’acheteur."
+          }
+        ]
+      },
+      "final_cta": {
+        "button": "Utiliser PyTune dans votre atelier",
+        "note": "Votre premier piano est gratuit — évoluez ensuite vers Pro à votre rythme."
+      }
+    },
+    "manufacturers": {
+      "hero": {
+        "badge": "PyTune · Pour fabricants, distributeurs & importateurs",
+        "title": "Transformez chaque piano que vous construisez\nen une expérience connectée.",
+        "subtitle": "PyTune prolonge votre savoir-faire dans le monde numérique : les propriétaires prennent mieux soin de leur piano, les revendeurs disposent d’outils clairs, et votre marque bénéficie de retours acoustiques concrets.",
+        "bullets": [
+          "Options marque blanche et co-branding pour fabricants et grands distributeurs.",
+          "Fonctionne sur Mac, PC, iPhone, iPad & Android — navigateur + app, multi-écrans.",
+          "Conçu pour les pianos acoustiques réels : droits, à queue, hybrides, modernes et anciens."
+        ],
+        "cta_primary": "Parler partenariat avec PyTune",
+        "cta_secondary": "Découvrir la technologie",
+        "footnote": "Du facteur artisanal aux marques mondiales — PyTune s’adapte à votre échelle et à votre écosystème."
+      },
+      "value": {
+        "title": "Ce que PyTune apporte à votre marque",
+        "cards": [
+          {
+            "title": "Un compagnon numérique pour chaque piano livré",
+            "text": "Associez PyTune à vos instruments pour offrir une expérience de suivi moderne, assistée par IA, fidèle aux standards de votre marque."
+          },
+          {
+            "title": "Une expérience après-vente cohérente dans le monde entier",
+            "text": "Qu’un piano soit vendu à Paris ou à Tokyo, PyTune fournit des diagnostics et des explications homogènes, alignés avec vos recommandations."
+          },
+          {
+            "title": "Empreintes acoustiques spécifiques à vos modèles",
+            "text": "Définissez des courbes de référence et profils acoustiques par modèle afin de préserver votre signature sonore sur tous les marchés."
+          },
+          {
+            "title": "Des échanges plus clairs avec votre réseau",
+            "text": "Les diagnostics partagés fournissent des données concrètes : modèle, historique, stabilité et usage — plus de flou."
+          }
+        ]
+      },
+      "workflow": {
+        "title": "Pensé pour fabricants, distributeurs et revendeurs",
+        "subtitle": "PyTune s’intègre naturellement à vos circuits de vente et de service, de l’usine au showroom puis au suivi à long terme.",
+        "cards": [
+          {
+            "title": "Associer PyTune aux pianos neufs",
+            "text": "Intégrez une carte ou un QR code PyTune à chaque piano afin que le propriétaire relie automatiquement l’instrument à votre marque."
+          },
+          {
+            "title": "Outiller revendeurs et partenaires service",
+            "text": "Offrez l’accès aux fonctionnalités Pro pour préparer les interventions, documenter les opérations et maintenir la qualité."
+          },
+          {
+            "title": "Suivre un parc d’instruments à grande échelle",
+            "text": "Des données agrégées et anonymisées révèlent tendances de stabilité, usages et besoins de service."
+          }
+        ]
+      },
+      "business": {
+        "title": "Pour les acteurs qui anticipent l’avenir",
+        "subtitle": "Que vous produisiez quelques dizaines de pianos ou gériez un réseau mondial, PyTune accompagne une approche moderne sans perdre votre identité.",
+        "cards": [
+          {
+            "title": "Une fidélité de marque renforcée",
+            "text": "Vous restez présent tout au long de la vie du piano grâce à des outils utiles et non intrusifs."
+          },
+          {
+            "title": "Une offre de services différenciante",
+            "text": "Positionnez votre marque au croisement du savoir-faire traditionnel et du diagnostic assisté par IA."
+          },
+          {
+            "title": "De nouveaux services et partenariats",
+            "text": "Mettez en place contrats de service, extensions de garantie ou programmes de suivi basés sur des données fiables."
+          }
+        ]
+      },
+      "steps": {
+        "title": "Du piano unique au parc mondial",
+        "items": [
+          {
+            "number": "01",
+            "title": "Intégrer PyTune au parcours client",
+            "text": "Dès le premier contact, PyTune devient un compagnon moderne cohérent avec votre image de marque."
+          },
+          {
+            "number": "02",
+            "title": "Équiper revendeurs et distributeurs",
+            "text": "Le réseau utilise PyTune en showroom, démonstration et après-vente pour accompagner les clients."
+          },
+          {
+            "number": "03",
+            "title": "Connecter votre réseau de techniciens",
+            "text": "Les techniciens agréés reçoivent les rapports, suivent vos standards et documentent leur travail."
+          },
+          {
+            "number": "04",
+            "title": "Exploiter les retours pour progresser",
+            "text": "Les données anonymisées permettent d’améliorer instruments, politiques de service et programmes futurs."
+          }
+        ]
+      },
+      "final_cta": {
+        "button": "Échanger avec l’équipe PyTune",
+        "note": "Nous adaptons le déploiement à votre réalité : marque unique, groupe multi-marques ou réseau de distribution."
+      }
+    },
+    "churches": {
+      "hero": {
+        "badge": "PyTune · Pour les églises, écoles et lieux communautaires",
+        "title": "Gardez votre piano communautaire\nau meilleur de sa forme — gratuitement.",
+        "subtitle": "Qu’il soit dans une église, une école, une salle communale ou un lieu de répétition, PyTune vous aide à prendre soin d’un piano partagé avec des diagnostics clairs, un langage simple et des outils adaptés aux budgets limités.",
+        "bullets": [
+          "PyTune Free suffit pour la majorité des pianos communautaires uniques.",
+          "Aucune installation requise — fonctionne dans le navigateur ou l’application sur téléphone, tablette ou ordinateur.",
+          "Conçu pour les vrais pianos acoustiques : droits, à queue, modernes ou anciens."
+        ],
+        "cta_primary": "Créer un compte communautaire gratuit",
+        "cta_secondary": "Découvrir comment PyTune fonctionne",
+        "footnote": "Votre premier piano est gratuit — pour toujours. Des offres communautaires pour plusieurs pianos existent si besoin, sans obligation de payer pour entretenir un seul instrument."
+      },
+      "what": {
+        "title": "Ce que PyTune apporte à votre piano communautaire",
+        "cards": [
+          {
+            "title": "Un piano prêt pour chaque office ou événement",
+            "text": "PyTune vous aide à suivre la dérive de l’accord, à repérer les zones sensibles et à savoir quand faire appel à un accordeur — pour que offices, répétitions et concerts reposent sur un instrument fiable."
+          },
+          {
+            "title": "Des contrôles simples accessibles aux bénévoles",
+            "text": "Avec un téléphone, une tablette ou un ordinateur, un bénévole peut jouer une courte séquence guidée ou prendre quelques photos. PyTune transforme cela en un « état de santé » clair, sans connaissances techniques."
+          },
+          {
+            "title": "Des rapports partageables pour l’accordeur ou le conseil",
+            "text": "Générez un rapport lisible expliquant l’état actuel, les évolutions récentes et les priorités. Vous pouvez l’envoyer à l’accordeur, à l’équipe dirigeante ou aux donateurs."
+          },
+          {
+            "title": "Un historique numérique pour le piano de la communauté",
+            "text": "Conservez les accords, visites de techniciens, travaux importants et événements. Avec le temps, vous créez un historique simple qui témoigne du soin apporté à l’instrument confié à votre communauté."
+          }
+        ]
+      },
+      "team": {
+        "title": "Pensé pour les équipes, bénévoles et partenaires",
+        "subtitle": "PyTune est assez simple pour les bénévoles et assez puissant pour les professionnels. Vous choisissez qui a accès : responsables musicaux, administrateurs, techniciens externes ou donateurs.",
+        "cards": [
+          {
+            "title": "Responsables musicaux & équipes de louange",
+            "text": "Savoir à l’avance si le piano est prêt pour le culte, la répétition de chœur ou un concert spécial — au lieu de découvrir un problème au dernier moment."
+          },
+          {
+            "title": "Bénévoles & administrateurs",
+            "text": "Même sans formation musicale, les bénévoles peuvent faire des contrôles, stocker des photos et envoyer des rapports, facilitant les échanges avec les techniciens."
+          },
+          {
+            "title": "Accordeurs & partenaires",
+            "text": "Votre accordeur habituel peut utiliser les diagnostics PyTune pour préparer les interventions, prioriser les travaux et expliquer clairement ce qui est possible selon votre budget."
+          }
+        ]
+      },
+      "steps": {
+        "title": "L’expérience côté église ou lieu communautaire",
+        "items": [
+          {
+            "number": "01",
+            "title": "Présenter votre piano à PyTune",
+            "text": "Indiquez ce que vous savez : marque, âge approximatif, emplacement (nef, chapelle, salle), et quelques photos. PyTune crée un profil numérique qui accompagne le piano dans le temps."
+          },
+          {
+            "number": "02",
+            "title": "Lancer un diagnostic gratuit et rapide",
+            "text": "Jouez une courte séquence guidée ou quelques notes de test. PyTune mesure la dérive de l’accord, la stabilité et les indicateurs clés avec le micro déjà disponible."
+          },
+          {
+            "number": "03",
+            "title": "Comprendre les besoins en langage clair",
+            "text": "Vous obtenez un résumé lisible : quelles zones sont le plus désaccordées, si le piano est encore utilisable, et quand prévoir une intervention professionnelle."
+          },
+          {
+            "number": "04",
+            "title": "Partager le rapport si vous le souhaitez",
+            "text": "Vous pouvez garder les résultats privés ou partager un lien avec l’accordeur, le pasteur, le conseil ou les donateurs. Tout le monde dispose des mêmes informations."
+          }
+        ]
+      },
+      "cta": {
+        "primary": "Démarrer PyTune pour votre église ou communauté",
+        "footnote": "Utilisez PyTune Free aussi longtemps que nécessaire. Lorsque vous gérez plusieurs pianos ou sites, vous pouvez évoluer vers des offres communautaires ou Pro — sans jamais perdre l’historique."
+      }
+    },
+    "investors": {
+      "hero": {
+        "badge": "PyTune · Investisseurs & partenaires stratégiques",
+        "title": "Investir dans le futur du piano et de l’IA.",
+        "subtitle": "PyTune associe acoustique piano de haute précision, IA multimodale et plateforme freemium pensée pour les millions de pianos acoustiques encore utilisés quotidiennement dans le monde — des foyers aux salles de concert.",
+        "bullets": [
+          "Croissance produit portée par une offre gratuite pour les propriétaires de piano.",
+          "Offres professionnelles et B2B pour accordeurs, studios, écoles et fabricants.",
+          "Fondé sur des mesures acoustiques réelles, pas sur une IA audio générique uniforme."
+        ],
+        "cta_primary": "Recevoir la présentation investisseurs",
+        "cta_secondary": "Découvrir l’expérience produit",
+        "footnote": "Les échanges en phase amont nous permettent d’aligner la feuille de route PyTune avec des partenaires de long terme sensibles à la musique, à l’artisanat et à l’IA appliquée."
+      },
+      "side_card": {
+        "title": "Un vertical ciblé à portée mondiale",
+        "p1": "Les pianos acoustiques sont des instruments durables et à forte valeur. Propriétaires, écoles, salles de spectacle et églises ont tous besoin de meilleurs outils de diagnostic et de suivi — aujourd’hui très fragmentés et souvent hors ligne.",
+        "p2": "PyTune ambitionne de devenir la couche numérique qui surplombe chaque piano : identification, diagnostic, vue d’accord, et historique de vie — reliant propriétaires, techniciens et fabricants.",
+        "p3": "Nous sommes actuellement en phase de consolidation produit : validation des usages avec des utilisateurs réels et des professionnels, tout en préparant un onboarding scalable."
+      },
+      "pillars": {
+        "title": "La thèse PyTune",
+        "cards": [
+          {
+            "title": "Une acoustique réelle, pas une IA générique",
+            "text": "PyTune repose sur une analyse acoustique piano de haute précision, l’étude des partiels et des workflows agentiques adaptés aux instruments réels — et non sur de simples modèles audio généralistes."
+          },
+          {
+            "title": "Freemium à l’entrée, monétisation pro",
+            "text": "Une offre gratuite crée l’adoption et l’engagement chez les particuliers, tandis que les outils Pro, diagnostics et usages distants génèrent des revenus récurrents pour les techniciens et studios."
+          },
+          {
+            "title": "Plateforme pour fabricants & partenaires",
+            "text": "PyTune peut alimenter des programmes de suivi, de maintenance et de services orientés données pour les marques de pianos, distributeurs, écoles et institutions."
+          }
+        ]
+      },
+      "growth": {
+        "title": "Comment PyTune se développe",
+        "subtitle": "La croissance démarre avec les propriétaires de piano, s’étend aux usages professionnels, puis s’accélère grâce aux partenariats et aux données — tout en restant accessible aux utilisateurs non techniques.",
+        "cards": [
+          {
+            "label": "Funnel utilisateur",
+            "title": "D’un piano à plusieurs",
+            "text": "Les utilisateurs commencent avec un piano gratuit. Avec le temps, ils ajoutent d’autres instruments, invitent leur accordeur et adoptent des fonctionnalités Pro selon l’évolution de leurs besoins."
+          },
+          {
+            "label": "Pro & B2B",
+            "title": "Des outils pour les professionnels",
+            "text": "Accordeurs, restaurateurs, enseignants et studios utilisent PyTune pour les diagnostics, rapports et sessions à distance — créant une base d’abonnements prévisible."
+          },
+          {
+            "label": "Écosystème",
+            "title": "Données & partenariats",
+            "text": "Les données acoustiques anonymisées, combinées à des intégrations fabricants optionnelles, ouvrent la voie à de nouveaux services, projets de recherche et offres co-brandées."
+          }
+        ]
+      },
+      "roadmap": {
+        "title": "Feuille de route early-stage & opportunités partenaires",
+        "cards": [
+          {
+            "phase": "Aujourd’hui",
+            "title": "Fondations produit",
+            "text": "Diagnostic de base, vue d’accord haute précision, agents IA et workflows multi-appareils pour particuliers et premiers utilisateurs professionnels."
+          },
+          {
+            "phase": "Lancement",
+            "title": "Déploiement Freemium + Pro",
+            "text": "Onboarding public des particuliers, fonctionnalités Pro pour techniciens, et premiers pilotes avec accordeurs, écoles et structures communautaires."
+          },
+          {
+            "phase": "Ensuite",
+            "title": "À distance & multi-écrans",
+            "text": "Sessions à distance avancées, vues d’accord multi-écrans et diagnostics collaboratifs entre propriétaire et technicien."
+          },
+          {
+            "phase": "Au-delà",
+            "title": "Écosystème & données",
+            "text": "Intégrations approfondies avec fabricants, réseaux de service et partenaires de recherche — pour faire de PyTune une couche de référence de la santé du piano acoustique."
+          }
+        ],
+        "footnote": "Nous affinons actuellement le produit avec des utilisateurs et professionnels réels. Les investisseurs et partenaires stratégiques peuvent influencer les priorités go-to-market, le focus vertical et le positionnement long terme de PyTune dans l’écosystème musique & IA."
+      },
+      "final_cta": {
+        "title": "Intéressé par l’aventure PyTune ?",
+        "text": "Si vous êtes investisseur, fabricant ou partenaire stratégique sensible à la musique et à l’IA appliquée, nous serions ravis de partager notre vision, notre feuille de route et d’explorer une éventuelle collaboration.",
+        "button": "Échangeons"
+      }
+    }
+  },
+  "pro": {
+    "hero": {
+      "eyebrow": "POUR LES TECHNICIENS ET ATELIERS",
+      "title": "Des clients qui vous appellent avec le diagnostic de leur piano déjà fait.",
+      "subtitle": "Un propriétaire mesure son instrument avec PyTune. Vous recevez la demande avec la marque, le modèle, l’année, l’état de l’accord et les photos. Vous savez ce qui vous attend avant de sonner à la porte.",
+      "cta_primary": "Créer mon compte professionnel",
+      "cta_secondary": "Voir les tarifs",
+      "reassurance": "Essai gratuit · Sans engagement · Aucune installation"
+    },
+    "strip": {
+      "item1": "Instrument identifié",
+      "item2": "Diagnostic acoustique complet",
+      "item3": "Historique par piano",
+      "item4": "Rapports à votre marque"
+    },
+    "craft": {
+      "title": "Votre métier, c’est l’accordage. Pas la prospection.",
+      "body": "Vous savez ce que vaut une heure passée au clavier. Vous savez aussi ce que coûte une semaine creuse, un déplacement pour rien, ou un client qui ne rappelle pas l’année suivante. PyTune ne vous apprend pas à accorder un piano. Il vous amène des instruments à accorder, et vous aide à ne plus en perdre."
+    },
+    "how": {
+      "title": "Comment la demande arrive jusqu’à vous",
+      "step1": {
+        "title": "Le propriétaire mesure son piano",
+        "body": "Avec son téléphone, gratuitement. PyTune identifie l’instrument à partir de photos et analyse note par note l’état de l’accord."
+      },
+      "step2": {
+        "title": "Il décide de partager son rapport",
+        "body": "Rien n’est transmis sans son accord. Quand il souhaite faire intervenir un professionnel, il partage son diagnostic."
+      },
+      "step3": {
+        "title": "Vous recevez une demande qualifiée",
+        "body": "Avec les mesures, l’instrument identifié, la localisation et les coordonnées. Vous répondez, vous vous déplacez en connaissance de cause."
+      }
+    },
+    "lead": {
+      "title": "Ce que vous savez avant même d’avoir décroché",
+      "subtitle": "Un formulaire de contact vous donne un nom et un numéro. Une demande PyTune vous donne un instrument.",
+      "item1": {
+        "label": "L’instrument",
+        "value": "Marque, modèle, année estimée, numéro de série, type et dimensions"
+      },
+      "item2": {
+        "label": "L’état de l’accord",
+        "value": "Déviation note par note, diapason réel, notes les plus éloignées"
+      },
+      "item3": {
+        "label": "La signature acoustique",
+        "value": "Inharmonicité mesurée, structure des partiels, analyse des unissons"
+      },
+      "item4": {
+        "label": "Les photos",
+        "value": "Meuble, clavier, table d’harmonie, numéro de série"
+      },
+      "item5": {
+        "label": "Le contexte",
+        "value": "Localisation, date du dernier accordage connu, observations du propriétaire"
+      }
+    },
+    "value": {
+      "title": "Ce que ça vous coûte, ce que ça vous rapporte",
+      "body": "Une intervention se facture entre 90 et 150 €. Trois clients supplémentaires dans l’année, et votre abonnement est remboursé plusieurs fois.",
+      "guarantee": {
+        "title": "Notre engagement",
+        "body": "Si PyTune ne vous apporte aucune intervention la première année, nous vous remboursons intégralement."
+      },
+      "cta": "Voir les tarifs professionnels"
+    }
+  },
+  "plans": {
+    "header": {
+      "eyebrow": "PYTUNE · FORMULES",
+      "title": "Choisissez votre formule",
+      "subtitle": "Un piano ? C’est gratuit, pour toujours. Plusieurs ? Choisissez votre échelle."
+    },
+    "tabs": {
+      "indy": "Indy",
+      "pro": "Professionnels",
+      "community": "Communautés"
+    },
+    "indy": {
+      "intro": "Pour les propriétaires et les passionnés. Le soin de votre piano, à votre rythme.",
+      "solo": {
+        "badge": "GRATUIT POUR TOUJOURS",
+        "name": "Indy Solo",
+        "scale": "1 piano",
+        "price": "0 €",
+        "tagline": "Prendre soin de son piano ne devrait jamais coûter quelque chose.",
+        "feat1": "Accordages et diagnostics illimités",
+        "feat2": "Identification par photo et estimation du modèle",
+        "feat3": "Historique complet de votre instrument",
+        "feat4": "Partage de vos rapports avec un professionnel",
+        "feat5": "Conseils d’entretien",
+        "cta": "Commencer gratuitement"
+      },
+      "multi": {
+        "name": "Indy Multi",
+        "scale": "Jusqu’à 3 pianos",
+        "price": "2,50 €/mois ou 25 €/an",
+        "tagline": "Pour ceux qui veillent sur plusieurs instruments.",
+        "feat1": "Tout Indy Solo, pour trois pianos",
+        "feat2": "Rapports PDF détaillés",
+        "feat3": "Assistant d’accordage",
+        "cta": "Choisir Indy Multi"
+      }
+    },
+    "pro": {
+      "intro": "Pour les accordeurs, techniciens et ateliers. Des demandes qualifiées, et des clients qui reviennent.",
+      "starter": {
+        "badge": "POUR COMMENCER",
+        "name": "Pro Découverte",
+        "price": "Gratuit",
+        "tagline": "Le temps de voir ce que PyTune vous apporte.",
+        "feat1": "Toutes les fonctions Pro",
+        "feat2": "Sans carte bancaire",
+        "cta": "Essayer gratuitement"
+      },
+      "main": {
+        "badge": "LE PLUS CHOISI",
+        "name": "Pro",
+        "tagline": "Des clients qui vous appellent avec le diagnostic de leur piano déjà fait.",
+        "feat1": "Demandes qualifiées de propriétaires près de chez vous",
+        "feat2": "Clients et pianos illimités",
+        "feat3": "Historique complet par instrument",
+        "feat4": "Rapports à votre marque et à vos couleurs",
+        "feat5": "Visibilité locale sur PyTune",
+        "cta": "Créer mon compte professionnel"
+      },
+      "enterprise": {
+        "name": "Entreprise",
+        "price": "Sur devis",
+        "tagline": "Pour les fabricants, distributeurs et réseaux d’ateliers.",
+        "feat1": "La sonorité que vous avez voulue, respectée dans tout votre réseau",
+        "feat2": "Suivi de parc à l’échelle, sur tous vos sites",
+        "feat3": "Plateforme à votre marque",
+        "feat4": "Intégration à vos outils",
+        "cta": "Parlons de votre projet"
+      }
+    },
+    "compare": {
+      "cta": "Comparer toutes les formules"
+    },
+    "footer": {
+      "title": "Plus qu’un accordage — PyTune veille sur votre piano.",
+      "body": "Diagnostic de précision, mémoire de l’instrument et conseil d’expert, au même endroit."
+    }
+  },
+  "discover": {
+    "hero": {
+      "baseline": "Le meilleur ami de votre piano",
+      "title": "Connaître. Mesurer. Accorder. Suivre.",
+      "subtitle": "Des mesures acoustiques réelles, pas des approximations. Pour les propriétaires de pianos et les professionnels qui en prennent soin."
+    },
+    "routing": {
+      "title": "Que cherchez-vous ?",
+      "intro": "Où que vous en soyez avec votre piano, PyTune commence ici.",
+      "card1": {
+        "title": "Vous avez un piano",
+        "lines": [
+          "Identifiez-le à partir de quelques photos.",
+          "Découvrez son âge et son état.",
+          "Mesurez sa justesse note par note.",
+          "Gardez la mémoire de son évolution."
+        ],
+        "cta": "Découvrir l’édition Indy"
+      },
+      "card2": {
+        "title": "Vous accordez des pianos",
+        "lines": [
+          "Recevez des demandes de propriétaires près de chez vous.",
+          "Le piano est déjà identifié et diagnostiqué.",
+          "Gardez l’historique de chaque instrument que vous suivez.",
+          "Remettez des rapports à votre marque."
+        ],
+        "cta": "Découvrir l’offre Pro"
+      },
+      "card3": {
+        "title": "Vous avez plusieurs pianos à charge",
+        "lines": [
+          "Écoles de musique, conservatoires, paroisses, salles communautaires.",
+          "Suivez chaque instrument, partagez l’accès avec votre équipe."
+        ],
+        "cta": "En savoir plus"
+      }
+    },
+    "proof": {
+      "title": "Ce qui rend PyTune différent",
+      "point1": {
+        "title": "Des mesures, pas des estimations",
+        "body": "Inharmonicité, courbes d’accord, cartes de déviation — calculées à partir du son réel de votre instrument. Comparables d’une visite à l’autre."
+      },
+      "point2": {
+        "title": "Accessible sans être simpliste",
+        "body": "Un guidage vocal permet d’accorder sans quitter le clavier des yeux. Les professionnels y trouvent la précision et le contrôle qu’ils attendent."
+      },
+      "point3": {
+        "title": "Chaque piano garde sa mémoire",
+        "body": "Ce qui a été mesuré, fait et recommandé reste attaché à l’instrument. D’une année sur l’autre, vous savez comment il a évolué."
+      },
+      "point4": {
+        "title": "Rien à installer",
+        "body": "Fonctionne sur téléphone, tablette et ordinateur. Aucun logiciel, aucune mise à jour."
+      }
+    },
+    "final": {
+      "text": "Commencez par identifier votre piano. C’est gratuit.",
+      "cta": "Identifier mon piano"
+    }
+  }
+}

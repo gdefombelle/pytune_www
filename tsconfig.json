@@ -1,0 +1,41 @@
+{
+  "extends": "./.svelte-kit/tsconfig.json",
+
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types"
+    ],
+
+    "types": [
+      "@sveltejs/kit"
+    ]
+  },
+
+  "include": [
+    "src",
+    "src/global.d.ts",
+    "src/types",
+    ".svelte-kit/ambient.d.ts",
+    "static/util.js"
+  ],
+
+  "svelteCompilerOptions": {
+    "warnings": {
+      "a11y-click-events-have-key-events": "ignore",
+      "a11y-no-static-element-interactions": "ignore"
+    }
+  }
+}
