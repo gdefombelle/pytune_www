@@ -13,7 +13,13 @@
     "support_message": "Enjoying PyTune? Consider supporting the project.",
     "donate_button": "Buy Me a Coffee",
     "rights": "All Rights Reserved.",
-    "investors_link": "Investors"
+    "investors_link": "Investors",
+    "professionals": {
+      "title": "For professionals",
+      "schools": "Schools and conservatories",
+      "manufacturers": "Manufacturers and distributors",
+      "restorers": "Restorers and resellers"
+    }
   },
   "landing": {
     "hero": {

@@ -13,7 +13,13 @@
     "support_message": "Vous aimez PyTune ? Pensez à soutenir le projet.",
     "donate_button": "Offrez-nous un café",
     "rights": "Tous droits réservés.",
-    "investors_link": "Investisseurs"
+    "investors_link": "Investisseurs",
+    "professionals": {
+      "title": "Pour les professionnels",
+      "schools": "Écoles et conservatoires",
+      "manufacturers": "Fabricants et distributeurs",
+      "restorers": "Restaurateurs et revendeurs"
+    }
   },
   "landing": {
     "hero": {

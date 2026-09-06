@@ -22,6 +22,16 @@
     <a href="/for/investors">{$t('footer.investors_link')}</a>
   </div>
 
+  <!-- 🔗 segments professionnels secondaires -->
+  <div class="links-section">
+    <p class="links-title">{$t('footer.professionals.title')}</p>
+    <div class="links">
+      <a href="/for/schools">{$t('footer.professionals.schools')}</a>
+      <a href="/for/manufacturers">{$t('footer.professionals.manufacturers')}</a>
+      <a href="/for/restorer-sellers">{$t('footer.professionals.restorers')}</a>
+    </div>
+  </div>
+
   <p class="copyright">
     &copy; 2025 PyTune. {$t('footer.rights')}
   </p>
@@ -79,6 +89,19 @@
 
   .links a:hover {
     color: #fff;
+  }
+
+  /* 👇 section segments professionnels */
+  .links-section {
+    margin-top: 0.8rem;
+  }
+
+  .links-title {
+    margin: 0 0 0.3rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #888;
   }
 
   .copyright {

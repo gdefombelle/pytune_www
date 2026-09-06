@@ -9,7 +9,6 @@ const PAGE_TITLES: Record<string, string> = {
   '/plan-enterprise': 'Enterprise',
   '/plan-faith': 'Faith & Community',
   '/for/piano-owners': 'PyTune for Piano Owners',
-  '/for/technicians': 'PyTune for Technicians & Tuners',
   '/for/technicians-workshops': 'PyTune Pro — Technicians & Workshops',
   '/for/restorer-sellers': 'PyTune for Restorers & Sellers',
   '/for/manufacturers': 'PyTune for Manufacturers & Distributors',
