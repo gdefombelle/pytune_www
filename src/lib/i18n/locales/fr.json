@@ -25,10 +25,10 @@
     "hero": {
       "eyebrow": "Présentation de PyTune",
       "title": "Conçu pour les pianos acoustiques.",
-      "subtitle": "Pour les propriétaires et les professionnels du piano. Propulsé par l’analyse sonore et l’IA.",
+      "subtitle": "Identifiez votre piano, mesurez son état, suivez-le dans le temps. Pour les propriétaires comme pour les professionnels.",
       "signature": "De l’identification à l’accordage de référence.",
-      "cta_primary": "Découvrir PyTune",
-      "cta_secondary": "Commencer",
+      "cta_primary": "Identifier mon piano",
+      "cta_secondary": "Découvrir PyTune",
       "reassurance": "Gratuit · Sans installation · Toutes plateformes",
       "baseline": "Identifier · Diagnostiquer · Accorder"
     }

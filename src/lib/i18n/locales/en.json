@@ -25,10 +25,10 @@
     "hero": {
       "eyebrow": "Introducing PyTune",
       "title": "Built for acoustic pianos.",
-      "subtitle": "For piano owners and professionals. Powered by sound analysis and AI.",
+      "subtitle": "Identify your piano, measure its condition, follow it over time. For owners and professionals alike.",
       "signature": "From identification to reference-level tuning.",
-      "cta_primary": "Discover PyTune",
-      "cta_secondary": "Get started",
+      "cta_primary": "Identify my piano",
+      "cta_secondary": "Discover PyTune",
       "reassurance": "Free · No installation · All platforms",
       "baseline": "Identify · Diagnose · Tune"
     }

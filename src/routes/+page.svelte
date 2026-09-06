@@ -51,17 +51,14 @@
       {$t('landing.hero.subtitle')}
     </p>
 
-    <!-- Signature -->
-    <p class="text-[15px] text-[#a3ffb8] tracking-wide">
-      {$t('landing.hero.signature')}
-    </p>
-
     <!-- CTA -->
     <div class="flex flex-col items-center space-y-4 pt-6">
 
       <!-- Primary -->
       <a
-        href="/discover"
+        href={appHref('/piano-identify')}
+        target="_blank"
+        rel="noopener noreferrer"
         class="px-14 py-4 rounded-full
                bg-[#2dc34a]/15 border border-[#2dc34a]
                text-[#a3ffb8] text-lg font-medium
@@ -74,9 +71,7 @@
 
       <!-- Secondary -->
       <a
-        href={appHref('/piano-identify')}
-        target="_blank"
-        rel="noopener noreferrer"
+        href="/discover"
         class="px-10 py-2.5 rounded-full
                border border-[#5fd4ff]/40
                text-[#7ee6ff] text-sm font-medium
