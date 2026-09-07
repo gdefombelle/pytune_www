@@ -864,5 +864,36 @@
       "text": "Commencez par identifier votre piano. C’est gratuit.",
       "cta": "Identifier mon piano"
     }
+  },
+  "how": {
+    "header": {
+      "title": "Comment ça marche",
+      "subtitle": "De trois photos à un dossier qui suit votre piano dans le temps."
+    },
+    "step1": {
+      "title": "Identifiez votre piano",
+      "body": "Prenez quelques photos, ou décrivez-le simplement. PyTune reconnaît la marque, le modèle, l’époque et l’état visuel. Vous obtenez une fiche d’instrument vérifiée, point de départ de tout le reste."
+    },
+    "step2": {
+      "title": "Mesurez son état réel",
+      "body": "Un balayage note par note relève la justesse, la stabilité et le comportement acoustique de l’instrument. Ce sont des mesures, pas des estimations — comparables d’une visite à l’autre."
+    },
+    "step3": {
+      "title": "Comprenez ce que ça veut dire",
+      "body": "L’assistant a vos mesures sous les yeux : l’instrument identifié, sa courbe d’inharmonicité, le diagnostic en cours. Ses réponses portent sur ce piano-là, pas sur les pianos en général."
+    },
+    "step4": {
+      "title": "Suivez-le dans le temps",
+      "body": "Photos, relevés d’accord, empreinte acoustique, interventions passées : tout reste attaché à l’instrument. D’une année sur l’autre, vous savez comment il a évolué."
+    },
+    "learn": {
+      "title": "Comprendre l’accordage",
+      "subtitle": "Quelques repères sur ce qui se passe réellement dans un piano."
+    },
+    "final": {
+      "title": "Commencez par identifier votre piano.",
+      "cta": "Identifier mon piano",
+      "reassurance": "Votre premier piano est gratuit — pour toujours."
+    }
   }
 }

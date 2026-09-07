@@ -864,5 +864,36 @@
       "text": "Start by identifying your piano. It’s free.",
       "cta": "Identify my piano"
     }
+  },
+  "how": {
+    "header": {
+      "title": "How it works",
+      "subtitle": "From three photos to a record that follows your piano over time."
+    },
+    "step1": {
+      "title": "Identify your piano",
+      "body": "Take a few photos, or simply describe it. PyTune recognises the make, model, era and visual condition. You get a verified instrument record — the starting point for everything else."
+    },
+    "step2": {
+      "title": "Measure its actual condition",
+      "body": "A note-by-note sweep captures tuning, stability and the instrument’s acoustic behaviour. These are measurements, not estimates — comparable from one visit to the next."
+    },
+    "step3": {
+      "title": "Understand what it means",
+      "body": "The assistant has your measurements in front of it: the identified instrument, its inharmonicity curve, the diagnosis in progress. Its answers are about this piano, not about pianos in general."
+    },
+    "step4": {
+      "title": "Follow it over time",
+      "body": "Photos, tuning readings, acoustic fingerprint, past work: everything stays with the instrument. Year after year, you know how it has evolved."
+    },
+    "learn": {
+      "title": "Understanding tuning",
+      "subtitle": "A few pointers on what actually happens inside a piano."
+    },
+    "final": {
+      "title": "Start by identifying your piano.",
+      "cta": "Identify my piano",
+      "reassurance": "Your first piano is free — forever."
+    }
   }
 }

@@ -1,21 +1,43 @@
 <script lang="ts">
   import { appHref } from '$lib/navigation/origins';
   import { browser } from '$app/environment';
+  import { t } from '$lib/i18n/langStore';
 
-  type GalleryItem = {
+  /*
+   * Lot 6 — retiré de cette page, à reporter sur /for/investors (lot séparé).
+   * Fichiers non déplacés dans static/ : seules les références de cette page ont changé.
+   *
+   * PDF institutionnels (9) :
+   *   slide-1   PyTune Experience                            PyTune_Piano_Intelligence_2.pdf
+   *   slide-2   PyTune - L'Expérience                         PyTune_Piano_Intelligence_1.pdf
+   *   slide-3   The OS of Piano Intelligence-1                PyTune_Piano_Intelligence_3.pdf
+   *   slide-4   The OS of Piano Intelligence-2                PyTune_Piano_Intelligence_5.pdf
+   *   slide-4.1 The OS of Piano Intelligence-2                PyTune_Technical_Architecture.pdf
+   *             ⚠ même titre que slide-4, fichier différent — anomalie non résolue, à trancher au report
+   *   slide-4.2 Connecting Piano Owners & Professionals       The_PyTune_Technical_Ecosystem.pdf
+   *   slide-5   The Operating System of Piano Intelligence    Piano_Intelligence_OS_(2).pdf
+   *   slide-6   The Architecture of Intonation                Piano_Tuning_Architecture.pdf
+   *   slide-7   Maîtrise de l'accordage - 1                   Maîtrise_de_l_Accordage_1.pdf
+   *
+   * Vidéos institutionnelles (4) :
+   *   video-1   L'Expérience PyTune - 1        https://youtu.be/Ehc7HLX7U5I
+   *   video-2   L'Expérience PyTune - 2        https://youtu.be/bonF9w3KHVc
+   *   video-2.1 PyTune Shared Platform Model   https://youtu.be/DyPx1IZqSCE
+   *   video-2.2 PyTune: Plateforme Partagée    https://youtu.be/qOOS3aCpTtg
+   */
+
+  type MediaItem = {
     id: string;
     title: string;
     type: 'slide' | 'video';
     url: string;
     lang: string;
-    tabs: string[];
   };
 
   let isModalOpen = false;
-  let activeMedia: GalleryItem | null = null;
-  let activeTab = 'overview';
+  let activeMedia: MediaItem | null = null;
 
-  function openMedia(item: GalleryItem) {
+  function openMedia(item: MediaItem) {
     activeMedia = item;
     isModalOpen = true;
     if (browser) document.body.style.overflow = 'hidden';
@@ -35,268 +57,217 @@
     if (e.key === 'Escape' && isModalOpen) closeModal();
   }
 
-  const steps = [
+  // Vidéo de démonstration par étape (étape 4 : pas de média, texte seul)
+  const step1Media: MediaItem = {
+    id: 'video-5',
+    title: 'PyTune ID',
+    type: 'video',
+    url: 'https://youtu.be/8lZ8qsUsydg',
+    lang: 'EN'
+  };
+  const step2Media: MediaItem = {
+    id: 'video-3',
+    title: 'PyTune Tuner',
+    type: 'video',
+    url: 'https://youtu.be/mEOgLIMPfr4',
+    lang: 'EN'
+  };
+  const step3Media: MediaItem = {
+    id: 'video-5.1',
+    title: 'PyTune ID-Pro',
+    type: 'video',
+    url: 'https://youtu.be/m_zckiJWZVY',
+    lang: 'EN'
+  };
+
+  // Section pédagogique — contenus en français uniquement (pas de version anglaise vide)
+  const learnItems: MediaItem[] = [
     {
-      number: "01",
-      title: "Identify Your Piano",
-      text: "Speak naturally, type freely, or upload photos. PyTune identifies your piano — brand, model, era, visual condition — giving you a verified starting point for expert-grade analysis."
+      id: 'video-7',
+      title: 'L’art de l’accord du piano',
+      type: 'video',
+      url: 'https://youtu.be/LkgOlQ6snlw',
+      lang: 'FR'
     },
     {
-      number: "02",
-      title: "AI Diagnosis & Precision Metrics",
-      text: "Receive insights about tuning stability, acoustic behavior, serial number hints, value range, and structural condition."
+      id: 'video-8',
+      title: 'La stabilité de l’accord',
+      type: 'video',
+      url: 'https://youtu.be/MylaWB1-mTI',
+      lang: 'FR'
     },
     {
-      number: "03",
-      title: "Follow Expert-Grade Guidance",
-      text: "Your AI assistant helps interpret the data and explains what matters for sound, tuning stability, and instrument health."
+      id: 'video-6',
+      title: 'Ce que contient une seule note',
+      type: 'video',
+      url: 'https://youtu.be/v4p3iNtuzEs',
+      lang: 'FR'
     },
     {
-      number: "04",
-      title: "Create Your Piano Profile",
-      text: "Store photos, tuning deviations, acoustic fingerprints, and service history — building a living digital identity for your piano."
+      id: 'video-4',
+      title: 'La science cachée du piano',
+      type: 'video',
+      url: 'https://youtu.be/1Ys0bgE7zq8',
+      lang: 'FR'
+    },
+    {
+      id: 'video-13',
+      title: 'L’art de l’accordage',
+      type: 'video',
+      url: 'https://youtu.be/cnV3zAqj4X4',
+      lang: 'FR'
     }
   ];
-  
-  const galleryItems: GalleryItem[] = [
-  {
-    id: "slide-1",
-    title: "PyTune Experience",
-    type: "slide",
-    url: "/slides/pdf/PyTune_Piano_Intelligence_2.pdf",
-    lang: "EN",
-    tabs: ["tech"]
-  },
-  {
-    id: "slide-2",
-    title: "PyTune - L'Expérience",
-    type: "slide",
-    url: "/slides/pdf/PyTune_Piano_Intelligence_1.pdf",
-    lang: "EN",
-    tabs: ["overview"]
-  },
-  {
-    id: "slide-3",
-    title: "The OS of Piano Intelligence-1",
-    type: "slide",
-    url: "/slides/pdf/PyTune_Piano_Intelligence_3.pdf",
-    lang: "EN",
-    tabs: ["overview"]
-  },
-  {
-    id: "slide-4",
-    title: "The OS of Piano Intelligence-2",
-    type: "slide",
-    url: "/slides/pdf/PyTune_Piano_Intelligence_5.pdf",
-    lang: "EN",
-    tabs: ["overview"]
-  },
-   {
-    id: "slide-4.1",
-    title: "The OS of Piano Intelligence-2",
-    type: "slide",
-    url: "/slides/pdf/PyTune_Technical_Architecture.pdf",
-    lang: "FR",
-    tabs: ["overview"]
-  },
-   {
-    id: "slide-4.2",
-    title: "Connecting Piano Owners & Professionals",
-    type: "slide",
-    url: "/slides/pdf/The_PyTune_Technical_Ecosystem.pdf",
-    lang: "EN",
-    tabs: ["overview"]
-  },
-  {
-    id: "slide-5",
-    title: "The Operating System of Piano Intelligence",
-    type: "slide",
-    url: "/slides/pdf/Piano_Intelligence_OS_(2).pdf",
-    lang: "EN",
-    tabs: ["features"]
-  },
-  {
-    id: "slide-6",
-    title: "The Architecture of Intonation",
-    type: "slide",
-    url: "/slides/pdf/Piano_Tuning_Architecture.pdf",
-    lang: "EN",
-    tabs: ["tech"]
-  },
-  {
-    id: "slide-7",
-    title: "Maîtrise de l'accordage - 1",
-    type: "slide",
-    url: "/slides/pdf/Maîtrise_de_l_Accordage_1.pdf",
-    lang: "FR",
-    tabs: ["tech"]
-  },
-  {
-    id: "slide-13",
-    title: "L'art de l'accordage - 1",
-    type: "video",
-    url: "https://youtu.be/cnV3zAqj4X4",
-    lang: "FR",
-    tabs: ["tech"]
-  },
-
-  {
-    id: "video-1",
-    title: "L'Expérience PyTune - 1",
-    type: "video",
-    url: "https://youtu.be/Ehc7HLX7U5I",
-    lang: "EN",
-    tabs: ["overview"]
-  },
-  {
-    id: "video-2",
-    title: "L'Expérience PyTune - 2",
-    type: "video",
-    url: "https://youtu.be/bonF9w3KHVc",
-    lang: "FR",
-    tabs: ["overview",]
-  },
-  {
-    id: "video-2.1",
-    title: "PyTune Shared Platform Model",
-    type: "video",
-    url: "https://youtu.be/DyPx1IZqSCE",
-    lang: "EN",
-    tabs: ["overview",]
-  },
-  {
-    id: "video-2.2",
-    title: "PyTune: Plateforme Partagée",
-    type: "video",
-    url: "https://youtu.be/qOOS3aCpTtg",
-    lang: "FR",
-    tabs: ["overview",]
-  },
-    {
-    id: "video-5",
-    title: "PyTune ID",
-    type: "video",
-    url: "https://youtu.be/8lZ8qsUsydg",
-    lang: "EN",
-    tabs: ["features"]
-  },
-   {
-    id: "video-5.1",
-    title: "PyTune ID-Pro",
-    type: "video",
-    url: "https://youtu.be/m_zckiJWZVY",
-    lang: "EN",
-    tabs: ["features"]
-  },
-  {
-    id: "video-3",
-    title: "PyTune Tuner",
-    type: "video",
-    url: "https://youtu.be/mEOgLIMPfr4",
-    lang: "EN",
-    tabs: ["features"]
-  },
-  {
-    id: "video-4",
-    title: "La science cachée du piano",
-    type: "video",
-    url: "https://youtu.be/1Ys0bgE7zq8",
-    lang: "FR",
-    tabs: ["features"]
-  },
-  {
-    id: "video-6",
-    title: "Complexité d'une note",
-    type: "video",
-    url: "https://youtu.be/v4p3iNtuzEs",
-    lang: "FR",
-    tabs: ["features"]
-  },
-   {
-    id: "video-7",
-    title: "L'Art de l'accord du piano",
-    type: "video",
-    url: "https://youtu.be/LkgOlQ6snlw",
-    lang: "FR",
-    tabs: ["features"]
-  },
-     {
-    id: "video-8",
-    title: "The Unstable Art of Piano Tuning",
-    type: "video",
-    url: "https://youtu.be/MylaWB1-mTI",
-    lang: "FR",
-    tabs: ["features"]
-  },
-];
-
-  function getItemsForTab(tab: string) {
-    return galleryItems.filter(item => item.tabs?.includes(tab));
-  }
-
 </script>
 
-<section class="max-w-[1400px] mx-auto px-6 pt-28 pb-20 text-center">
-
-  <h1 class="text-4xl md:text-6xl font-light text-[#F4E8C2] mb-6"
-      style="text-shadow: 0 0 18px rgba(0,0,0,0.6);">
-    How PyTune Works
+<!-- HEADER -->
+<section class="max-w-[1000px] mx-auto px-6 pt-28 pb-16 text-center">
+  <h1
+    class="text-4xl md:text-6xl font-light text-[#F4E8C2] mb-6"
+    style="text-shadow: 0 0 18px rgba(0,0,0,0.6);"
+  >
+    {$t('how.header.title')}
   </h1>
 
-  <p class="text-lg md:text-2xl text-[#F4E8C2]/80 max-w-[900px] mx-auto leading-relaxed">
-    A next-generation platform combining  
-    <span class="text-[#1fb6ff]">AI acoustics</span>,  
-    <span class="text-[#2dc34a]">precision tuning analysis</span>,  
-    <span class="text-[#1fb6ff]">expert guidance</span>,  
-    and real-world piano science.
+  <p class="text-lg md:text-2xl text-[#F4E8C2]/80 max-w-[820px] mx-auto leading-relaxed">
+    {$t('how.header.subtitle')}
   </p>
+</section>
+
+<!-- FOUR STEPS -->
+<section class="max-w-[1100px] mx-auto px-6 pb-28 space-y-20">
+
+  <!-- Step 1 -->
+  <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+    <div class="md:w-1/2 text-center md:text-left">
+      <div class="text-[#1fb6ff] text-4xl font-light mb-3">01</div>
+      <h2 class="text-2xl md:text-3xl text-[#F4E8C2] font-light mb-3">
+        {$t('how.step1.title')}
+      </h2>
+      <p class="text-[#F4E8C2]/75 leading-relaxed">
+        {$t('how.step1.body')}
+      </p>
+    </div>
+    <div class="md:w-1/2 w-full">
+      <button
+        type="button"
+        class="media-card w-full rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-2 hover:border-[#1fb6ff] transition cursor-pointer text-left"
+        on:click={() => openMedia(step1Media)}
+        aria-label={`Open ${step1Media.title}`}
+      >
+        <div class="aspect-video rounded-lg bg-black/50 overflow-hidden">
+          <div class="media-preview">
+            <img
+              src={`https://i.ytimg.com/vi/${youtubeId(step1Media.url)}/hqdefault.jpg`}
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="480"
+              height="360"
+            />
+            <span class="play-badge" aria-hidden="true">▶</span>
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <!-- Step 2 -->
+  <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+    <div class="md:w-1/2 text-center md:text-left">
+      <div class="text-[#1fb6ff] text-4xl font-light mb-3">02</div>
+      <h2 class="text-2xl md:text-3xl text-[#F4E8C2] font-light mb-3">
+        {$t('how.step2.title')}
+      </h2>
+      <p class="text-[#F4E8C2]/75 leading-relaxed">
+        {$t('how.step2.body')}
+      </p>
+    </div>
+    <div class="md:w-1/2 w-full">
+      <button
+        type="button"
+        class="media-card w-full rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-2 hover:border-[#1fb6ff] transition cursor-pointer text-left"
+        on:click={() => openMedia(step2Media)}
+        aria-label={`Open ${step2Media.title}`}
+      >
+        <div class="aspect-video rounded-lg bg-black/50 overflow-hidden">
+          <div class="media-preview">
+            <img
+              src={`https://i.ytimg.com/vi/${youtubeId(step2Media.url)}/hqdefault.jpg`}
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="480"
+              height="360"
+            />
+            <span class="play-badge" aria-hidden="true">▶</span>
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <!-- Step 3 -->
+  <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
+    <div class="md:w-1/2 text-center md:text-left">
+      <div class="text-[#1fb6ff] text-4xl font-light mb-3">03</div>
+      <h2 class="text-2xl md:text-3xl text-[#F4E8C2] font-light mb-3">
+        {$t('how.step3.title')}
+      </h2>
+      <p class="text-[#F4E8C2]/75 leading-relaxed">
+        {$t('how.step3.body')}
+      </p>
+    </div>
+    <div class="md:w-1/2 w-full">
+      <button
+        type="button"
+        class="media-card w-full rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl p-2 hover:border-[#1fb6ff] transition cursor-pointer text-left"
+        on:click={() => openMedia(step3Media)}
+        aria-label={`Open ${step3Media.title}`}
+      >
+        <div class="aspect-video rounded-lg bg-black/50 overflow-hidden">
+          <div class="media-preview">
+            <img
+              src={`https://i.ytimg.com/vi/${youtubeId(step3Media.url)}/hqdefault.jpg`}
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="480"
+              height="360"
+            />
+            <span class="play-badge" aria-hidden="true">▶</span>
+          </div>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <!-- Step 4 — texte seul, pas de média -->
+  <div class="max-w-[700px] mx-auto text-center">
+    <div class="text-[#1fb6ff] text-4xl font-light mb-3">04</div>
+    <h2 class="text-2xl md:text-3xl text-[#F4E8C2] font-light mb-3">
+      {$t('how.step4.title')}
+    </h2>
+    <p class="text-[#F4E8C2]/75 leading-relaxed">
+      {$t('how.step4.body')}
+    </p>
+  </div>
 
 </section>
 
-<!-- TABS -->
-<div class="max-w-[1200px] mx-auto px-6 mb-6">
-  <div class="tabs">
-    <button
-      class="tab {activeTab === 'overview' ? 'is-active' : ''}"
-      on:click={() => activeTab = 'overview'}
-    >
-      Overview
-    </button>
-
-    <button
-      class="tab {activeTab === 'features' ? 'is-active' : ''}"
-      on:click={() => activeTab = 'features'}
-    >
-      Features & Demos
-    </button>
-
-    <button
-      class="tab {activeTab === 'tech' ? 'is-active' : ''}"
-      on:click={() => activeTab = 'tech'}
-    >
-      Technology
-    </button>
-    <button
-      class="tab {activeTab === 'engineering' ? 'is-active' : ''}"
-      on:click={() => activeTab = 'engineering'}
-    >
-      Platform & Engineering
-    </button>
-  </div>
-</div>
-
+<!-- LEARN (SECTION PÉDAGOGIQUE) -->
 <section class="max-w-[1200px] mx-auto px-6 pb-28">
 
-  <h2 class="text-3xl md:text-4xl font-light text-center mb-12 text-[#F4E8C2]">
-    {activeTab === 'overview' ? 'Overview' :
-     activeTab === 'features' ? 'Presentations & Demos' :
-     activeTab === 'tech' ? 'Technical Insights' :
-     'Platform & Engineering'}
+  <h2 class="text-3xl md:text-4xl font-light text-center mb-4 text-[#F4E8C2]">
+    {$t('how.learn.title')}
   </h2>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+  <p class="text-[#F4E8C2]/70 max-w-[700px] mx-auto mb-12 text-[15px] leading-relaxed text-center">
+    {$t('how.learn.subtitle')}
+  </p>
 
-    {#each getItemsForTab(activeTab) as item (item.id)}
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {#each learnItems as item (item.id)}
 
       <button
         type="button"
@@ -306,24 +277,17 @@
       >
 
         <div class="aspect-video rounded-lg bg-black/50 flex items-center justify-center overflow-hidden">
-          {#if item.type === 'video'}
-            <div class="media-preview">
-              <img
-                src={`https://i.ytimg.com/vi/${youtubeId(item.url)}/hqdefault.jpg`}
-                alt=""
-                loading="lazy"
-                decoding="async"
-                width="480"
-                height="360"
-              />
-              <span class="play-badge" aria-hidden="true">▶</span>
-            </div>
-          {:else}
-            <div class="pdf-preview" aria-hidden="true">
-              <span class="pdf-icon">PDF</span>
-              <span>View presentation</span>
-            </div>
-          {/if}
+          <div class="media-preview">
+            <img
+              src={`https://i.ytimg.com/vi/${youtubeId(item.url)}/hqdefault.jpg`}
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width="480"
+              height="360"
+            />
+            <span class="play-badge" aria-hidden="true">▶</span>
+          </div>
         </div>
 
         <div class="mt-4 flex items-center justify-between">
@@ -339,83 +303,33 @@
       </button>
 
     {/each}
-
   </div>
 
 </section>
-
-<!-- STEP BY STEP -->
-<section class="max-w-[900px] mx-auto px-6 pb-28">
-
-  <h2 class="text-3xl md:text-4xl font-light text-center mb-16 text-[#F4E8C2]">
-    Step by Step
-  </h2>
-
-  <div class="space-y-16">
-    {#each steps as s}
-
-      <div class="flex flex-col md:flex-row md:items-start gap-6">
-
-        <div class="text-[#1fb6ff] text-5xl font-light md:w-1/5 text-center md:text-left">
-          {s.number}
-        </div>
-
-        <div class="md:w-4/5">
-          <h3 class="text-2xl text-[#F4E8C2] font-light mb-2">
-            {s.title}
-          </h3>
-
-          <p class="text-[#F4E8C2]/75 leading-relaxed">
-            {s.text}
-          </p>
-        </div>
-
-      </div>
-
-    {/each}
-  </div>
-
-</section>
-
-
-
-<!-- TECH CREDIBILITY -->
-<section class="max-w-[1100px] mx-auto px-6 pb-24 text-center">
-
-  <h2 class="text-3xl md:text-4xl font-light text-[#F4E8C2] mb-6">
-    Built with Real Acoustics & AI Research
-  </h2>
-
-  <p class="text-[#F4E8C2]/70 max-w-[800px] mx-auto leading-relaxed">
-    PyTune combines advanced signal processing, harmonic analysis,
-    acoustic modeling, and modern AI systems — bringing scientific
-    rigor to everyday piano care.
-  </p>
-
-</section>
-
-
 
 <!-- CTA -->
 <section class="text-center pb-32">
 
+  <h2 class="text-2xl md:text-3xl font-light text-[#F4E8C2] mb-6">
+    {$t('how.final.title')}
+  </h2>
 
   <!-- svelte-ignore a11y_invalid_attribute -->
-  <a href={appHref('/get-started')}
+  <a
+    href={appHref('/piano-identify')}
     target="_blank"
     rel="noopener noreferrer"
-     class="px-12 py-4 rounded-xl bg-[#2dc34a]/15 border border-[#2dc34a]
-            text-[#2dc34a] font-medium backdrop-blur
-            hover:bg-[#2dc34a]/25 hover:border-[#2dc34a]
-            hover:shadow-[0_0_22px_#2dc34a55]
-            transition-all duration-500">
-
-    Create Your Account
-
+    class="px-12 py-4 rounded-xl bg-[#2dc34a]/15 border border-[#2dc34a]
+           text-[#2dc34a] font-medium backdrop-blur
+           hover:bg-[#2dc34a]/25 hover:border-[#2dc34a]
+           hover:shadow-[0_0_22px_#2dc34a55]
+           transition-all duration-500"
+  >
+    {$t('how.final.cta')}
   </a>
 
   <p class="mt-5 text-[#F4E8C2]/70 text-sm">
-    Your first piano is free — forever.
+    {$t('how.final.reassurance')}
   </p>
 
 </section>
