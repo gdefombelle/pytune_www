@@ -705,6 +705,24 @@
       },
       "cta": "See professional pricing"
     },
+    "ai": {
+      "title": "A reasoned second opinion, on the instrument in front of you",
+      "subtitle": "A general AI knows piano technology. It doesn’t know your piano. PyTune’s has your measurements in front of it.",
+      "body": "It sees the identified instrument, its inharmonicity curve, the diagnosis you just ran and what was found on previous visits. Its answers are about this piano, not about pianos in general.",
+      "case1": {
+        "title": "The stubborn case",
+        "body": "A note that won’t hold, a unison that refuses to settle. Describe what you observe: the analysis accounts for your readings and past work on this instrument."
+      },
+      "case2": {
+        "title": "The second opinion",
+        "body": "Before concluding hardened hammers or a damper issue, test your hypothesis. An opinion that contradicts you is worth more than one that agrees."
+      },
+      "case3": {
+        "title": "The documentation, without the search",
+        "body": "Action specifications, model quirks, manufacturing practices. Ask during the job rather than reopening a manual that evening."
+      },
+      "footnote": "The decision stays yours. The tool documents, argues and reminds — it replaces neither your ear nor your judgement."
+    },
     "cross_link": "Do you also restore or sell pianos? See PyTune for restorers and sellers →"
   },
   "plans": {

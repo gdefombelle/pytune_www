@@ -705,6 +705,24 @@
       },
       "cta": "Voir les tarifs professionnels"
     },
+    "ai": {
+      "title": "Un avis argumenté, sur l’instrument que vous avez devant vous",
+      "subtitle": "Une IA générale connaît la technologie du piano. Elle ne connaît pas votre piano. Celle de PyTune a vos mesures sous les yeux.",
+      "body": "Elle voit l’instrument identifié, sa courbe d’inharmonicité, le diagnostic que vous venez de faire et ce qui a été constaté lors des visites précédentes. Ses réponses portent sur ce piano-là, pas sur les pianos en général.",
+      "case1": {
+        "title": "Le cas qui résiste",
+        "body": "Une note qui ne tient pas, un unisson qui refuse de se stabiliser. Décrivez ce que vous observez : l’analyse tient compte de vos relevés et des interventions passées sur cet instrument."
+      },
+      "case2": {
+        "title": "Le second avis",
+        "body": "Avant de conclure à des marteaux durcis ou à un problème d’étouffoirs, confrontez votre hypothèse. Un avis qui vous contredit vaut mieux qu’un avis qui vous approuve."
+      },
+      "case3": {
+        "title": "La documentation, sans la chercher",
+        "body": "Spécifications de mécanique, particularités d’un modèle, pratiques de facture. Posez la question pendant l’intervention plutôt que de rouvrir un manuel le soir."
+      },
+      "footnote": "Vous gardez la décision. L’outil documente, argumente et rappelle — il ne remplace ni votre oreille ni votre jugement."
+    },
     "cross_link": "Vous restaurez ou vendez aussi des pianos ? Voir PyTune pour les restaurateurs et revendeurs →"
   },
   "plans": {
