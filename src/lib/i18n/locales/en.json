@@ -36,42 +36,6 @@
       "baseline": "Identify · Diagnose · Tune · Track"
     }
   },
-  "home": {
-    "hero": {
-      "brandline": { "tagline": "Your piano’s best friend." },
-      "title": "Know. Measure. Tune. Track.",
-      "subtitle": "Real acoustic data. Measurable diagnostics. Guided tuning. Continuous tracking — for owners and the professionals who care for their instruments."
-    },
-    "audience": { "view_details": "View details" },
-    "platform": {
-      "eyebrow": "A different category",
-      "title": "A cognitive AI platform for acoustic pianos",
-      "intro": "PyTune is not an app or a single-purpose tool. It is a <span class='highlight'>scientific, real-time and collaborative platform</span> designed to understand, measure and guide acoustic pianos — from absolute beginners to world-class professionals.",
-      "features": {
-        "01": {
-          "title": "AI-Guided High-Precision Tuning",
-          "text": "Audio-first tuning guidance driven by AI. Enables amateurs to tune without prior knowledge, while giving experts unmatched precision and control. Voice guidance — no need to look at the screen."
-        },
-        "02": {
-          "title": "Professional Acoustic Diagnosis",
-          "text": "Inharmonicity analysis, tuning curves and deviation maps based on real acoustic measurements — not approximations. Comparable, reproducible, and shareable."
-        },
-        "04": {
-          "title": "Cognitive AI for Learning & Expertise",
-          "text": "A knowledge platform to explore and deepen understanding of tuning, acoustics and piano behavior — contextual, explainable, and expert-grade."
-        },
-        "05": {
-          "title": "Designed for Collaboration",
-          "text": "Piano owners, technicians, restorers and manufacturers work within the same ecosystem — individual workflows and professional practice aligned."
-        },
-        "06": {
-          "title": "Zero-Installation · Cross-Platform",
-          "text": "No software to install. Works across phones, tablets, desktops and multi-screen setups. Piano dating and historical estimation included."
-        }
-      },
-      "signature": "PyTune bridges amateurs and experts — from first tuning attempts to reference-level piano care."
-    }
-  },
   "for": {
     "piano_owners": {
       "hero": {

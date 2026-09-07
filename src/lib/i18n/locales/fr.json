@@ -36,42 +36,6 @@
       "baseline": "Identifier · Diagnostiquer · Accorder · Suivre"
     }
   },
-  "home": {
-    "hero": {
-      "brandline": { "tagline": "Le meilleur ami de votre piano" },
-      "title": "Comprendre, diagnostiquer et accorder votre piano acoustique.",
-      "subtitle": "PyTune vous aide à identifier votre instrument, à mesurer son état de santé et à vous guider vers un accordage de haute précision — en autonomie ou avec un professionnel."
-    },
-    "audience": { "view_details": "Voir les détails" },
-    "platform": {
-      "eyebrow": "UNE CATÉGORIE À PART",
-      "title": "Une plateforme d’IA cognitive dédiée aux pianos acoustiques",
-      "intro": "PyTune n’est ni une application classique ni un simple outil. C’est une <span class='highlight'>plateforme scientifique, collaborative et en temps réel</span>, conçue pour comprendre, mesurer et accompagner les pianos acoustiques — des premiers pas jusqu’à l’expertise de niveau international.",
-      "features": {
-        "01": {
-          "title": "Accordage haute précision guidé par l’IA",
-          "text": "Un guidage d’accordage audio-first piloté par l’IA. Il permet aux amateurs d’accorder sans connaissances préalables, tout en offrant aux experts une précision et un contrôle inégalés. Guidage vocal — sans avoir besoin de regarder l’écran."
-        },
-        "02": {
-          "title": "Diagnostic acoustique professionnel",
-          "text": "Analyse de l’inharmonicité, courbes d’accord et cartes d’écart issues de mesures acoustiques réelles — pas d’approximations. Données comparables, reproductibles et partageables."
-        },
-        "04": {
-          "title": "IA cognitive pour l’apprentissage et l’expertise",
-          "text": "Une plateforme de connaissance pour explorer et approfondir la compréhension de l’accordage, de l’acoustique et du comportement du piano — contextuelle, explicable et orientée pratique experte."
-        },
-        "05": {
-          "title": "Pensée pour la collaboration",
-          "text": "Propriétaires, techniciens, restaurateurs et fabricants travaillent dans un même écosystème — avec des workflows individuels alignés sur les pratiques professionnelles."
-        },
-        "06": {
-          "title": "Zéro installation · Multiplateforme",
-          "text": "Aucun logiciel à installer. Fonctionne sur téléphone, tablette, ordinateur et configurations multi-écrans. Estimation de l’âge et de l’historique du piano incluse."
-        }
-      },
-      "signature": "PyTune crée un pont entre amateurs et experts — des premiers accords à une référence mondiale du soin pianistique."
-    }
-  },
   "for": {
     "piano_owners": {
       "hero": {
