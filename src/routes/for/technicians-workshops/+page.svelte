@@ -111,7 +111,7 @@
           </a>
 
           <a
-            href="/how-it-works"
+            href="/plans"
             class="px-10 py-4 rounded-md
                    border border-[#1fb6ff]
                    text-[#1fb6ff]
