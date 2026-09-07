@@ -1,4 +1,7 @@
 {
+  "common": {
+    "close": "Close"
+  },
   "navbar": {
     "home": "PyTune",
     "back": "Back",

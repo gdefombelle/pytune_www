@@ -290,14 +290,10 @@
           </div>
         </div>
 
-        <div class="mt-4 flex items-center justify-between">
+        <div class="mt-4">
           <h3 class="text-[#F4E8C2] text-sm font-medium">
             {item.title}
           </h3>
-
-          <span class="text-xs px-2 py-1 rounded bg-white/10 text-[#F4E8C2]/70">
-            {item.lang}
-          </span>
         </div>
 
       </button>
@@ -356,7 +352,7 @@
           class="text-[#F4E8C2]/80 hover:text-white text-sm px-3 py-1 rounded bg-white/10"
           on:click={closeModal}
         >
-          Close ✕
+          {$t('common.close')} ✕
         </button>
       </div>
 
@@ -389,8 +385,7 @@
     color: inherit;
   }
 
-  .media-preview,
-  .pdf-preview {
+  .media-preview {
     position: relative;
     width: 100%;
     height: 100%;
@@ -417,23 +412,4 @@
     border: 1px solid rgba(255, 255, 255, 0.55);
   }
 
-  .pdf-preview {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0.75rem;
-    color: rgba(244, 232, 194, 0.72);
-    background: linear-gradient(145deg, rgba(31, 182, 255, 0.08), rgba(45, 195, 74, 0.06));
-  }
-
-  .pdf-icon {
-    padding: 0.45rem 0.65rem;
-    border: 1px solid rgba(31, 182, 255, 0.7);
-    border-radius: 0.45rem;
-    color: #9ad8ff;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.08em;
-  }
 </style>
