@@ -726,6 +726,23 @@
       },
       "footnote": "The decision stays yours. The tool documents, argues and reminds — it replaces neither your ear nor your judgement."
     },
+    "livesync": {
+      "title": "Your client sees what you hear",
+      "subtitle": "Stream your measurements live to as many screens as you like. A tablet on the piano is enough.",
+      "body": "Tuning is work a client can neither see nor judge. That is why it so often ends up feeling expensive. With LiveSync, they follow the curves as you work, note by note. They finally understand what they are paying for.",
+      "case1": {
+        "title": "In front of the client",
+        "body": "Put a tablet on the piano. Deviations, unisons, stability appear as you go. Nothing for them to install."
+      },
+      "case2": {
+        "title": "Remotely",
+        "body": "An absent owner, a colleague consulted, a second opinion on a difficult case: share the live view wherever they are."
+      },
+      "case3": {
+        "title": "Across several screens",
+        "body": "Phone in hand, tablet on the piano, workshop display. As many views as needed, all in sync."
+      }
+    },
     "cross_link": "Do you also restore or sell pianos? See PyTune for restorers and sellers →"
   },
   "plans": {
@@ -885,6 +902,11 @@
       "title": "Understand what it means",
       "body": "The assistant has your measurements in front of it: the identified instrument, its inharmonicity curve, the diagnosis in progress. Its answers are about this piano, not about pianos in general."
     },
+    "livesync": {
+      "label": "ALONG THE WAY",
+      "title": "Your measurements, on as many screens as you like",
+      "body": "While you measure, the same view can appear live elsewhere: a tablet on the piano, a student’s screen, a colleague’s display across the country. Nothing for them to install."
+    },
     "step4": {
       "title": "Follow it over time",
       "body": "Photos, tuning readings, acoustic fingerprint, past work: everything stays with the instrument. Year after year, you know how it has evolved."
@@ -897,6 +919,21 @@
       "title": "Start by identifying your piano.",
       "cta": "Identify my piano",
       "reassurance": "Your first piano is free — forever."
+    }
+  },
+  "schools": {
+    "livesync": {
+      "title": "One gesture shown, ten students seeing the same thing",
+      "subtitle": "The teacher’s screen, streamed live to every station.",
+      "body": "Teaching tuning means getting several people to look at the same place at the same moment. With LiveSync, the teacher measures and everyone follows the curves on their own screen. No other tool on the market allows it.",
+      "case1": {
+        "title": "In the workshop",
+        "body": "The instructor works on the instrument while the class watches the readings in real time, rather than over their shoulder."
+      },
+      "case2": {
+        "title": "Remotely",
+        "body": "An absent student, a visiting expert, a second site: the session can be followed from anywhere, with nothing to install."
+      }
     }
   }
 }

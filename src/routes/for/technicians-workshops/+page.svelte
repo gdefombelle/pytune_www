@@ -263,6 +263,36 @@
     </p>
   </section>
 
+  <!-- LIVESYNC -->
+  <section class="max-w-[1100px] mx-auto px-6 pb-24">
+    <div class="text-center mb-12">
+      <h2 class="text-2xl md:text-3xl font-light text-[#F4E8C2] mb-4">
+        {$t('pro.livesync.title')}
+      </h2>
+      <p class="text-[#F4E8C2]/80 text-[15px] leading-relaxed max-w-[760px] mx-auto mb-4">
+        {$t('pro.livesync.subtitle')}
+      </p>
+      <p class="text-[#F4E8C2]/70 text-[15px] leading-relaxed max-w-[760px] mx-auto">
+        {$t('pro.livesync.body')}
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-7">
+      <div class="relative overflow-hidden rounded-3xl p-7 bg-black/40 border border-white/15 backdrop-blur-xl">
+        <h3 class="text-lg font-medium text-[#a3ffb8] mb-2">{$t('pro.livesync.case1.title')}</h3>
+        <p class="text-[#F4E8C2]/80 text-[15px] leading-relaxed">{$t('pro.livesync.case1.body')}</p>
+      </div>
+      <div class="relative overflow-hidden rounded-3xl p-7 bg-black/40 border border-white/15 backdrop-blur-xl">
+        <h3 class="text-lg font-medium text-[#a3ffb8] mb-2">{$t('pro.livesync.case2.title')}</h3>
+        <p class="text-[#F4E8C2]/80 text-[15px] leading-relaxed">{$t('pro.livesync.case2.body')}</p>
+      </div>
+      <div class="relative overflow-hidden rounded-3xl p-7 bg-black/40 border border-white/15 backdrop-blur-xl">
+        <h3 class="text-lg font-medium text-[#a3ffb8] mb-2">{$t('pro.livesync.case3.title')}</h3>
+        <p class="text-[#F4E8C2]/80 text-[15px] leading-relaxed">{$t('pro.livesync.case3.body')}</p>
+      </div>
+    </div>
+  </section>
+
   <!-- PRO × INDY LOOP -->
   <section class="max-w-[1200px] mx-auto px-6 pb-24">
     <div class="text-center mb-10">

@@ -207,6 +207,19 @@
     </div>
   </div>
 
+  <!-- LIVESYNC (aparté, pas une étape numérotée) -->
+  <div class="rounded-3xl border border-[#1fb6ff]/25 bg-black/30 p-8 md:p-10 max-w-[820px] mx-auto text-center">
+    <p class="text-xs tracking-[0.3em] uppercase text-[#1fb6ff]/70 mb-3">
+      {$t('how.livesync.label')}
+    </p>
+    <h3 class="text-xl md:text-2xl text-[#F4E8C2] font-light mb-3">
+      {$t('how.livesync.title')}
+    </h3>
+    <p class="text-[#F4E8C2]/75 leading-relaxed">
+      {$t('how.livesync.body')}
+    </p>
+  </div>
+
   <!-- Step 3 -->
   <div class="flex flex-col md:flex-row items-center gap-8 md:gap-12">
     <div class="md:w-1/2 text-center md:text-left">

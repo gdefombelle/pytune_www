@@ -726,6 +726,23 @@
       },
       "footnote": "Vous gardez la décision. L’outil documente, argumente et rappelle — il ne remplace ni votre oreille ni votre jugement."
     },
+    "livesync": {
+      "title": "Votre client voit ce que vous entendez",
+      "subtitle": "Diffusez vos mesures en direct sur autant d’écrans que vous voulez. Une tablette posée sur le piano suffit.",
+      "body": "Un accordage est un travail que le client ne peut ni voir ni juger. C’est pourquoi il finit souvent par le trouver cher. Avec LiveSync, il suit les courbes pendant que vous travaillez, note par note. Il comprend enfin ce qu’il paie.",
+      "case1": {
+        "title": "Devant le client",
+        "body": "Posez une tablette sur le piano. Les déviations, les unissons, la stabilité s’affichent au fur et à mesure. Rien à installer de son côté."
+      },
+      "case2": {
+        "title": "À distance",
+        "body": "Un propriétaire absent, un confrère consulté, un second avis sur un cas difficile : partagez la vue en direct, où qu’ils soient."
+      },
+      "case3": {
+        "title": "Sur plusieurs écrans",
+        "body": "Téléphone en main, tablette sur le piano, écran de l’atelier. Autant de vues que nécessaire, toutes synchronisées."
+      }
+    },
     "cross_link": "Vous restaurez ou vendez aussi des pianos ? Voir PyTune pour les restaurateurs et revendeurs →"
   },
   "plans": {
@@ -885,6 +902,11 @@
       "title": "Comprenez ce que ça veut dire",
       "body": "L’assistant a vos mesures sous les yeux : l’instrument identifié, sa courbe d’inharmonicité, le diagnostic en cours. Ses réponses portent sur ce piano-là, pas sur les pianos en général."
     },
+    "livesync": {
+      "label": "AU PASSAGE",
+      "title": "Vos mesures, sur autant d’écrans que vous voulez",
+      "body": "Pendant que vous mesurez, la même vue peut s’afficher en direct ailleurs : une tablette posée sur le piano, l’écran d’un élève, celui d’un confrère à distance. Rien à installer de leur côté."
+    },
     "step4": {
       "title": "Suivez-le dans le temps",
       "body": "Photos, relevés d’accord, empreinte acoustique, interventions passées : tout reste attaché à l’instrument. D’une année sur l’autre, vous savez comment il a évolué."
@@ -897,6 +919,21 @@
       "title": "Commencez par identifier votre piano.",
       "cta": "Identifier mon piano",
       "reassurance": "Votre premier piano est gratuit — pour toujours."
+    }
+  },
+  "schools": {
+    "livesync": {
+      "title": "Un geste montré, dix élèves qui voient la même chose",
+      "subtitle": "L’écran du professeur, diffusé en direct sur tous les postes.",
+      "body": "Enseigner l’accordage suppose de faire regarder plusieurs personnes au même endroit, au même moment. Avec LiveSync, le professeur mesure et chacun suit les courbes sur son propre écran. Aucun outil du marché ne le permet.",
+      "case1": {
+        "title": "En atelier",
+        "body": "Le formateur intervient sur l’instrument, la classe observe les relevés en temps réel plutôt que par-dessus son épaule."
+      },
+      "case2": {
+        "title": "À distance",
+        "body": "Un élève empêché, un intervenant extérieur, un second site : la séance se suit d’où que ce soit, sans rien installer."
+      }
     }
   }
 }
